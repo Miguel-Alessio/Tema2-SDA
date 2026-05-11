@@ -7,6 +7,8 @@ typedef struct FileNode{
     int scor;
     struct FileNode *next;
     struct FileNode *prev;
+    int nr_cuvinte;
+    char cuvinte_cheie[10][50];
 }FileNode;
 
 typedef struct FileRefNode{
@@ -25,7 +27,7 @@ typedef struct TrieNode{
 FileNode* create_file_node(const char* nume_id, int scor_initial){
     FileNode* new_node=(FileNode*)malloc(sizeof(FileNode));
     if(new_node==NULL){
-        printf("Error");
+        printf("Error\n");
         return NULL;
     }
     strncpy(new_node->id,nume_id,49);
@@ -39,7 +41,7 @@ FileNode* create_file_node(const char* nume_id, int scor_initial){
 FileRefNode* create_file_ref_node(FileNode* fisier_tinta) {
     FileRefNode* new_node = (FileRefNode*)malloc(sizeof(FileRefNode));
     if (new_node == NULL) {
-        printf("Error");
+        printf("Error\n");
         return NULL;
     }
     new_node->file = fisier_tinta;
@@ -50,7 +52,7 @@ FileRefNode* create_file_ref_node(FileNode* fisier_tinta) {
 TrieNode* create_trie_node(){
     TrieNode* new_node=(TrieNode*)malloc(sizeof(TrieNode));
     if(new_node==NULL){
-        printf("Error");
+        printf("Error\n");
         return NULL;
     }
     new_node->end_of_word=false;
@@ -61,41 +63,47 @@ TrieNode* create_trie_node(){
     return new_node;
 }
 
-// Funcție care inserează UN cuvânt în Trie și îl leagă de fisier
 void insert_in_trie(TrieNode* root, const char* word, FileNode* file_ptr) {
-    TrieNode* curr = root; // Începem de la rădăcină
-    
-    // Parcurgem literele cuvântului una câte una
+    TrieNode* curr = root;
     for (int i = 0; word[i] != '\0'; i++) {
-        int index = word[i] - 'a'; // Transformăm litera ('a'-'z') în index (0-25)
-        
-        // Dacă nodul pentru această literă nu există, îl creăm
+        int index = word[i] - 'a';
         if (curr->children[index] == NULL) {
             curr->children[index] = create_trie_node();
         }
-        
-        // Coborâm pe ramura respectivă
         curr = curr->children[index];
     }
-    
-    // Am ajuns la finalul cuvântului
     curr->end_of_word = true;
-    
-    // Creăm "puntea" de legătură
     FileRefNode* new_ref = create_file_ref_node(file_ptr);
-    
-    // Inserăm referința la începutul listei de referințe a acestui nod Trie (cel mai simplu mod - O(1))
     new_ref->next = curr->file_refs;
     curr->file_refs = new_ref;
 }
 
-void ADD(FileNode *new_file,const char* id,int scor_initial){
-    if(new_file->id){
-        printf("Error");
-        return;
+void ADD(FileNode **head,FileNode **tail,TrieNode* trie_root,const char* id,int scor_initial,char cuvinte_cheie[][50],int numar_cuvinte){
+    FileNode *curr=*head;
+    while(curr){
+        if(strcmp(curr->id,id)==0){
+            printf("Error:Fisierul %s deja exista.\n",id);
+            return;
+        }
+        curr=curr->next;
     }
-    new_file=create_file_node(id,scor_initial);
-    create_file_ref_node(new_file);
+    FileNode *new_file=create_file_node(id,scor_initial);
 
+    if(*head==NULL){
+        *head=new_file;
+        *tail=new_file;
+    }
+    else{
+        (*tail)->next=new_file;
+        new_file->prev=*tail;
+        *tail=new_file;
+    }
+    for(int i=0;i<numar_cuvinte;i++){
+        insert_in_trie(trie_root,cuvinte_cheie[i],new_file);
+
+    }
+    printf("Fisierul %s a fost adaugat cu succes!\n",id);
 
 }
+
+FileNode del()
