@@ -1,0 +1,61 @@
+60
+ADD c0 59 37 brad univers tacere lup margean padure scanteie efemer munte timp spirala jar galaxie atlas elixir cometa orizont oglinda sarma fulger prisma vulcan sidef rucsac busola vultur spectru abis pasare matase fluture castel mar flacara randunica mesteacan viteza
+ADD c1 93 20 sidef brad tacere efemer spirala nectar abis algoritm univers stejar lup matase oglinda scanteie telescop vulcan orizont vis nisip viteza
+ADD c2 69 32 smarald fantana ceara randunica spectru pasare sclipici scoica nisip cristal galaxie mesteacan oglinda zambet penita vulcan mar amurg tacere coliba pian matase busola umbra zbor stea fluture brad timp padure cometa labirint
+ADD c3 12 26 stejar vultur scoica sclipici nectar cometa oglinda sarma ecou rucsac vis nisip matase pian fantana stea penumbra coral padure coliba pergament smarald amurg prisma cuantic jar
+PREFIX ce
+TOPK tacere 2
+ADD c4 56 7 lup margean timp spectru smarald flacara fluture
+ADDKW c2 sfera
+PREFIX flu
+TOPK fluture 2
+DEL c4
+ADD c5 6 32 telescop scoica brad univers flacara zbor sfera scanteie labirint fluture penumbra fantana azur vulcan rucsac randunica cometa mar pasare pian stejar cristal lup coliba castel zambet spectru amurg elixir sclipici cafea fulger
+ADDKW c0 penumbra
+DELKW c0 pasare
+PREFIX pas
+TOPK sfera 3
+FIND vultur
+PREFIX br
+TOPK brad 2
+DELKW c1 vant
+DELKW c3 cuantic
+PREFIX cu
+DELKW c2 coliba
+DEL c4
+PRINT
+ADD c6 47 47 spectru randunica penita izvor chitara azur fantana sarma labirint rucsac brad flacara timp viteza telescop vant zambet oglinda tacere vulcan algoritm ocean galaxie matase castel vis spirala nisip smarald lup stejar roua fulger scoica sfera mesteacan umbra orizont coliba scanteie cuantic pergament zbor jar nectar mar ceara
+ADDKW c2 amurg
+TOPK ecou 8
+PREFIX ec
+ADD c7 35 45 fantana ocean timp efemer roua penita spectru nor fluture spirala galaxie orizont cometa labirint umbra sclipici cafea sidef atlas cuantic mesteacan freamat ametist izvor matase amurg fulger coliba scoica pasare padure chitara vulcan scanteie vant oglinda telescop munte prisma jar tacere castel brad stejar margean
+ADDKW c0 labirint
+PREFIX sc
+TOPK smarald 6
+FIND cafea
+FIND chitara
+PREFIX cab
+DEL c0
+FIND freamat
+DELKW c7 castel
+FIND elixir
+TOPK munte 1
+DEL c6
+PRINT
+DELKW c0 praf
+FIND ametist
+PREFIX va
+ADD c8 48 34 sfera galaxie flacara scoica izvor cometa busola munte sarma abis coliba coral vultur brad randunica labirint rucsac telescop penita prisma scanteie azur stea vis pian ametist ceara lup vant umbra elixir fulger ecou cristal
+ADDKW c6 cafea
+ADD c9 44 8 atlas tacere mar nor labirint zbor busola coral
+TOPK busola 2
+ADDKW c2 coral
+DEL c8
+TOPK fulger 7
+TOPK smarald 4
+FIND brad
+ADD c10 34 41 penita vulcan efemer atlas munte spectru matase sfera cuantic penumbra algoritm cometa stea orizont galaxie sclipici cristal freamat mesteacan izvor mar rucsac fulger vis smarald pergament nisip ceara fantana coliba vant zambet ocean cafea nor spirala elixir amurg chitara lup ametist
+ADDKW c6 roua
+PREFIX ma
+TOPK sarma 3
+PRINT

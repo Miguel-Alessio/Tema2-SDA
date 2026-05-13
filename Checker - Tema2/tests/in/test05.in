@@ -1,0 +1,9 @@
+8
+ADD Joel 96 3 survivor fireflies boston
+ADD Ellie 98 3 survivor immune infected
+ADD Tess 84 2 survivor smuggler
+ADD Marlene 87 2 fireflies leader
+ADD Riley 80 2 fireflies immune
+PRINT
+ADD Tommy 85 2 survivor jackson
+PRINT

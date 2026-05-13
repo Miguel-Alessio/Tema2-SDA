@@ -1,0 +1,10 @@
+9
+ADD Kratos 99 3 spartan god rage
+ADD Atreus 91 3 god giant arrows
+ADD Freya 88 3 goddess valkyrie seidr
+ADD Baldur 85 2 god invincible
+DEL Baldur
+PRINT
+ADD Mimir 82 2 giant wisdom
+ADD Brok 78 2 dwarf blacksmith
+PRINT

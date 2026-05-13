@@ -1,0 +1,11 @@
+10
+ADD Aloy 99 3 nora hunter machine
+ADD Sylens 88 3 outcast eclipse machine
+ADD Erend 82 2 oseram warrior
+ADD Helis 85 2 eclipse zealot
+DEL Helis
+PRINT
+ADD Varl 80 2 nora warrior
+ADD Kotallo 86 2 tenakth warrior
+ADD Regalla 84 2 tenakth rebel
+PRINT

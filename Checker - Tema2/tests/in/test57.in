@@ -1,0 +1,10 @@
+9
+ADD f_edge 50 2 mar par
+ADDKW f_edge mar
+DELKW f_inexistent mar
+DELKW f_edge gutuie
+PRINT
+DELKW f_edge mar
+PRINT
+DELKW f_edge mar
+PRINT

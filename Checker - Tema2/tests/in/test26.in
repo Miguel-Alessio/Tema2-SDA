@@ -1,0 +1,16 @@
+15
+ADD WednesdayAddams 97 3 psychic nevermore outcast
+ADD EnidSinclair 85 2 werewolf nevermore
+ADD XavierThorpe 82 2 psychic nevermore
+ADD BiancaBarclay 88 2 siren nevermore
+ADD EugeneOttinger 76 2 beekeeper nevermore
+ADD TylerGalpin 79 2 hyde nevermore
+DEL EugeneOttinger
+ADDKW WednesdayAddams detective
+DELKW TylerGalpin nevermore
+FIND nevermore
+TOPK nevermore 3
+TOPK psychic 2
+ADD LurchAddams 72 2 butler outcast
+FIND outcast
+PRINT

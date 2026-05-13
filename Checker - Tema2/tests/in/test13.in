@@ -1,0 +1,11 @@
+10
+ADD ErenYeager 99 3 titan shifter eldian
+ADD MikasaAckerman 97 3 soldier ackerman survey
+ADD ArminArlert 91 3 strategist survey eldian
+ADD ReinerBraun 88 3 titan shifter warrior
+DEL ReinerBraun
+ADDKW ErenYeager founder
+ADDKW MikasaAckerman protector
+PRINT
+ADD AnnieLeonhart 86 2 titan warrior
+PRINT

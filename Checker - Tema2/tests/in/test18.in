@@ -1,0 +1,11 @@
+10
+ADD LambertWitcher 86 3 witcher wolf school
+ADD EskelWitcher 84 3 witcher wolf school
+ADD Philippa 90 3 sorceress owl spy
+ADD Rience 79 2 mage villain
+DEL Rience
+ADDKW LambertWitcher swords
+DELKW Philippa spy
+PRINT
+ADD Regis 88 3 vampire witcher friend
+PRINT

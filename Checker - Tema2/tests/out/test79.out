@@ -1,0 +1,270 @@
+OK
+OK
+OK
+OK
+1 c2 
+2 c1 c2 
+OK
+OK
+3 c0 c2 c4 
+2 c2 c0 
+OK
+OK
+OK
+OK
+2 c2 c5 
+2 c2 c5 
+2 c0 c3 
+4 c0 c1 c2 c5 
+2 c1 c2 
+OK
+OK
+EMPTY
+OK
+NOT FOUND
+abis 2 c0 c1 
+algoritm 1 c1 
+amurg 3 c2 c3 c5 
+atlas 1 c0 
+azur 1 c5 
+brad 4 c0 c1 c2 c5 
+busola 2 c0 c2 
+cafea 1 c5 
+castel 2 c0 c5 
+ceara 1 c2 
+coliba 2 c3 c5 
+cometa 4 c0 c2 c3 c5 
+coral 1 c3 
+cristal 2 c2 c5 
+ecou 1 c3 
+efemer 2 c0 c1 
+elixir 2 c0 c5 
+fantana 3 c2 c3 c5 
+flacara 2 c0 c5 
+fluture 3 c0 c2 c5 
+fulger 2 c0 c5 
+galaxie 2 c0 c2 
+jar 2 c0 c3 
+labirint 2 c2 c5 
+lup 3 c0 c1 c5 
+mar 3 c0 c2 c5 
+margean 1 c0 
+matase 4 c0 c1 c2 c3 
+mesteacan 2 c0 c2 
+munte 1 c0 
+nectar 2 c1 c3 
+nisip 3 c1 c2 c3 
+oglinda 4 c0 c1 c2 c3 
+orizont 2 c0 c1 
+padure 3 c0 c2 c3 
+pasare 2 c2 c5 
+penita 1 c2 
+penumbra 3 c0 c3 c5 
+pergament 1 c3 
+pian 3 c2 c3 c5 
+prisma 2 c0 c3 
+randunica 3 c0 c2 c5 
+rucsac 3 c0 c3 c5 
+sarma 2 c0 c3 
+scanteie 3 c0 c1 c5 
+sclipici 3 c2 c3 c5 
+scoica 3 c2 c3 c5 
+sfera 2 c2 c5 
+sidef 2 c0 c1 
+smarald 2 c2 c3 
+spectru 3 c0 c2 c5 
+spirala 2 c0 c1 
+stea 2 c2 c3 
+stejar 3 c1 c3 c5 
+tacere 3 c0 c1 c2 
+telescop 2 c1 c5 
+timp 2 c0 c2 
+umbra 1 c2 
+univers 3 c0 c1 c5 
+vis 2 c1 c3 
+viteza 2 c0 c1 
+vulcan 4 c0 c1 c2 c5 
+vultur 2 c0 c3 
+zambet 2 c2 c5 
+zbor 2 c2 c5 
+OK
+OK
+1 c3 
+1 c3 
+OK
+OK
+7 c0 c1 c2 c3 c5 c6 c7 
+3 c2 c6 c3 
+2 c5 c7 
+2 c6 c7 
+EMPTY
+OK
+1 c7 
+OK
+1 c5 
+1 c7 
+OK
+abis 1 c1 
+algoritm 1 c1 
+ametist 1 c7 
+amurg 4 c2 c3 c5 c7 
+atlas 1 c7 
+azur 1 c5 
+brad 4 c1 c2 c5 c7 
+busola 1 c2 
+cafea 2 c5 c7 
+castel 1 c5 
+ceara 1 c2 
+chitara 1 c7 
+coliba 3 c3 c5 c7 
+cometa 4 c2 c3 c5 c7 
+coral 1 c3 
+cristal 2 c2 c5 
+cuantic 1 c7 
+ecou 1 c3 
+efemer 2 c1 c7 
+elixir 1 c5 
+fantana 4 c2 c3 c5 c7 
+flacara 1 c5 
+fluture 3 c2 c5 c7 
+freamat 1 c7 
+fulger 2 c5 c7 
+galaxie 2 c2 c7 
+izvor 1 c7 
+jar 2 c3 c7 
+labirint 3 c2 c5 c7 
+lup 2 c1 c5 
+mar 2 c2 c5 
+margean 1 c7 
+matase 4 c1 c2 c3 c7 
+mesteacan 2 c2 c7 
+munte 1 c7 
+nectar 2 c1 c3 
+nisip 3 c1 c2 c3 
+nor 1 c7 
+ocean 1 c7 
+oglinda 4 c1 c2 c3 c7 
+orizont 2 c1 c7 
+padure 3 c2 c3 c7 
+pasare 3 c2 c5 c7 
+penita 2 c2 c7 
+penumbra 2 c3 c5 
+pergament 1 c3 
+pian 3 c2 c3 c5 
+prisma 2 c3 c7 
+randunica 2 c2 c5 
+roua 1 c7 
+rucsac 2 c3 c5 
+sarma 1 c3 
+scanteie 3 c1 c5 c7 
+sclipici 4 c2 c3 c5 c7 
+scoica 4 c2 c3 c5 c7 
+sfera 2 c2 c5 
+sidef 2 c1 c7 
+smarald 2 c2 c3 
+spectru 3 c2 c5 c7 
+spirala 2 c1 c7 
+stea 2 c2 c3 
+stejar 4 c1 c3 c5 c7 
+tacere 3 c1 c2 c7 
+telescop 3 c1 c5 c7 
+timp 2 c2 c7 
+umbra 2 c2 c7 
+univers 2 c1 c5 
+vant 1 c7 
+vis 2 c1 c3 
+viteza 1 c1 
+vulcan 4 c1 c2 c5 c7 
+vultur 1 c3 
+zambet 2 c2 c5 
+zbor 2 c2 c5 
+NOT FOUND
+1 c7 
+1 c7 
+OK
+NOT FOUND
+OK
+2 c2 c8 
+OK
+OK
+2 c7 c5 
+2 c2 c3 
+4 c1 c2 c5 c7 
+OK
+NOT FOUND
+7 c1 c10 c2 c3 c5 c7 c9 
+1 c3 
+abis 1 c1 
+algoritm 2 c1 c10 
+ametist 2 c10 c7 
+amurg 5 c10 c2 c3 c5 c7 
+atlas 3 c10 c7 c9 
+azur 1 c5 
+brad 4 c1 c2 c5 c7 
+busola 2 c2 c9 
+cafea 3 c10 c5 c7 
+castel 1 c5 
+ceara 2 c10 c2 
+chitara 2 c10 c7 
+coliba 4 c10 c3 c5 c7 
+cometa 5 c10 c2 c3 c5 c7 
+coral 3 c2 c3 c9 
+cristal 3 c10 c2 c5 
+cuantic 2 c10 c7 
+ecou 1 c3 
+efemer 3 c1 c10 c7 
+elixir 2 c10 c5 
+fantana 5 c10 c2 c3 c5 c7 
+flacara 1 c5 
+fluture 3 c2 c5 c7 
+freamat 2 c10 c7 
+fulger 3 c10 c5 c7 
+galaxie 3 c10 c2 c7 
+izvor 2 c10 c7 
+jar 2 c3 c7 
+labirint 4 c2 c5 c7 c9 
+lup 3 c1 c10 c5 
+mar 4 c10 c2 c5 c9 
+margean 1 c7 
+matase 5 c1 c10 c2 c3 c7 
+mesteacan 3 c10 c2 c7 
+munte 2 c10 c7 
+nectar 2 c1 c3 
+nisip 4 c1 c10 c2 c3 
+nor 3 c10 c7 c9 
+ocean 2 c10 c7 
+oglinda 4 c1 c2 c3 c7 
+orizont 3 c1 c10 c7 
+padure 3 c2 c3 c7 
+pasare 3 c2 c5 c7 
+penita 3 c10 c2 c7 
+penumbra 3 c10 c3 c5 
+pergament 2 c10 c3 
+pian 3 c2 c3 c5 
+prisma 2 c3 c7 
+randunica 2 c2 c5 
+roua 1 c7 
+rucsac 3 c10 c3 c5 
+sarma 1 c3 
+scanteie 3 c1 c5 c7 
+sclipici 5 c10 c2 c3 c5 c7 
+scoica 4 c2 c3 c5 c7 
+sfera 3 c10 c2 c5 
+sidef 2 c1 c7 
+smarald 3 c10 c2 c3 
+spectru 4 c10 c2 c5 c7 
+spirala 3 c1 c10 c7 
+stea 3 c10 c2 c3 
+stejar 4 c1 c3 c5 c7 
+tacere 4 c1 c2 c7 c9 
+telescop 3 c1 c5 c7 
+timp 2 c2 c7 
+umbra 2 c2 c7 
+univers 2 c1 c5 
+vant 2 c10 c7 
+vis 3 c1 c10 c3 
+viteza 1 c1 
+vulcan 5 c1 c10 c2 c5 c7 
+vultur 1 c3 
+zambet 3 c10 c2 c5 
+zbor 3 c2 c5 c9 

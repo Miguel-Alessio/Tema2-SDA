@@ -1,0 +1,6 @@
+5
+ADD f_edge 50 2 munte zapada
+DEL f_inexistent
+DEL f_edge
+DEL f_edge
+PRINT

@@ -1,0 +1,15 @@
+14
+ADD BoydStevens 95 3 sheriff colony survivor
+ADD EthanMatthews 88 3 newcomer colony mystery
+ADD TabithaMatthews 82 2 newcomer colony
+ADD JimMatthews 84 2 newcomer survivor
+ADD Victor 91 3 colony mystery survivor
+DEL TabithaMatthews
+ADDKW BoydStevens mystery
+DELKW JimMatthews survivor
+FIND colony
+TOPK colony 3
+TOPK mystery 2
+ADD SaraMyers 78 2 mystery threat
+FIND mystery
+PRINT

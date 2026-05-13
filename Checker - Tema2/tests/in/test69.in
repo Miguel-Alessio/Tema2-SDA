@@ -1,0 +1,46 @@
+45
+ADD f1 90 3 munte zapada schi
+ADD f2 85 3 munte traseu rucsac
+ADD f3 95 3 mare nisip soare
+ADD f4 70 3 delta stuf barca
+ADD f5 60 2 oras asfalt
+ADD f6 88 3 munte cabana zapada
+PRINT
+FIND munte
+FIND zapada
+TOPK munte 4
+ADDKW f1 iarna
+ADDKW f6 iarna
+ADDKW f2 iarna
+PRINT
+TOPK iarna 3
+DELKW f1 zapada
+FIND zapada
+DELKW f6 zapada
+FIND zapada
+PRINT
+ADD f7 77 2 oras parcare
+PRINT
+TOPK oras 2
+ADDKW f5 zgomot
+DEL f5
+FIND oras
+FIND zgomot
+PRINT
+ADDKW f4 peste
+ADDKW f4 amurg
+ADDKW f4 salcie
+TOPK delta 5
+DEL f4
+PRINT
+DELKW f1 munte
+DELKW f2 munte
+DELKW f6 munte
+FIND munte
+PRINT
+DEL f1
+DEL f2
+DEL f3
+DEL f6
+DEL f7
+PRINT

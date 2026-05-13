@@ -1,0 +1,14 @@
+13
+ADD f1 90 3 scoala elev catalog
+ADD f2 85 3 scoala elev pauza
+ADDKW f1 profesor
+ADDKW f2 profesor
+PRINT
+DELKW f1 catalog
+DELKW f2 pauza
+PRINT
+DEL f1
+PRINT
+DEL f2
+DEL f1
+PRINT

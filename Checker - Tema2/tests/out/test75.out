@@ -1,0 +1,173 @@
+OK
+OK
+OK
+1 doc2 
+3 doc0 doc1 doc2 
+OK
+OK
+2 doc0 doc1 
+4 doc0 doc1 doc2 doc3 
+2 doc3 doc1 
+OK
+OK
+3 doc0 doc1 doc2 
+1 doc0 
+EMPTY
+1 doc3 
+OK
+EMPTY
+OK
+OK
+EMPTY
+EMPTY
+2 doc2 doc3 
+1 doc1 
+1 doc3 
+OK
+OK
+OK
+OK
+OK
+OK
+2 doc3 doc5 
+EMPTY
+OK
+OK
+OK
+OK
+1 doc4 
+1 doc3 
+OK
+OK
+1 doc0 
+EMPTY
+OK
+OK
+1 doc0 
+1 doc0 
+4 doc0 doc1 doc3 doc7 
+OK
+OK
+2 doc8 doc7 
+OK
+OK
+1 doc1 
+1 doc10 
+1 doc1 
+OK
+OK
+1 doc11 
+OK
+OK
+OK
+OK
+1 doc13 
+OK
+OK
+OK
+OK
+NOT FOUND
+OK
+OK
+NOT FOUND
+4 doc1 doc12 doc16 doc3 
+EMPTY
+NOT FOUND
+NOT FOUND
+OK
+OK
+OK
+OK
+NOT FOUND
+EMPTY
+4 doc12 doc13 doc16 doc3 
+1 doc16 
+OK
+NOT FOUND
+OK
+EMPTY
+NOT FOUND
+EMPTY
+EMPTY
+1 doc3 
+OK
+NOT FOUND
+OK
+2 doc3 doc16 
+OK
+OK
+4 doc12 doc16 doc17 doc3 
+OK
+1 doc3 
+OK
+NOT FOUND
+OK
+adancime 1 doc8 
+afaceri 1 doc12 
+ancora 1 doc11 
+bani 1 doc3 
+barcagiu 1 doc12 
+beton 1 doc12 
+bocanci 1 doc16 
+busola 2 doc16 doc6 
+cald 2 doc11 doc12 
+ceata 4 doc12 doc16 doc17 doc3 
+comert 1 doc16 
+cort 3 doc10 doc13 doc3 
+curat 1 doc3 
+dans 1 doc13 
+delta 3 doc10 doc16 doc3 
+dezvoltare 1 doc6 
+dig 3 doc10 doc11 doc6 
+distractie 1 doc3 
+echipa 1 doc12 
+efort 1 doc6 
+emotie 1 doc6 
+explorare 2 doc12 doc16 
+faleza 1 doc6 
+floare 2 doc3 doc6 
+formatiuni 1 doc6 
+frica 1 doc12 
+frig 1 doc16 
+harta 1 doc11 
+insula 1 doc12 
+istorie 3 doc10 doc13 doc3 
+izvor 1 doc12 
+lemne 1 doc13 
+lumina 1 doc3 
+lumini 1 doc6 
+lup 1 doc3 
+mare 1 doc8 
+marinar 1 doc11 
+masina 2 doc12 doc6 
+mister 1 doc3 
+nisip 1 doc3 
+oras 2 doc11 doc3 
+parcare 1 doc11 
+patine 1 doc16 
+peisaj 2 doc17 doc6 
+pelican 1 doc12 
+pescarusi 1 doc6 
+pescuit 1 doc12 
+peste 2 doc16 doc6 
+pestera 2 doc11 doc3 
+plaja 2 doc12 doc16 
+ploaie 2 doc13 doc6 
+povesti 1 doc12 
+prapastie 2 doc12 doc3 
+reflectie 1 doc10 
+rucsac 1 doc3 
+sare 2 doc17 doc6 
+somn 1 doc10 
+stele 1 doc13 
+stuf 1 doc11 
+tehnologie 1 doc6 
+timp 1 doc11 
+umbrela 2 doc16 doc3 
+undita 2 doc3 doc6 
+urs 1 doc12 
+valuri 1 doc13 
+vapor 2 doc12 doc3 
+vasle 1 doc16 
+vis 1 doc6 
+zapada 3 doc11 doc12 doc13 

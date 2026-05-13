@@ -1,0 +1,17 @@
+16
+ADD test1 90 2 programare algoritm
+ADD test2 80 2 programare structura
+FIND programare
+ADDKW test1 complexitate
+ADDKW test2 eficienta
+FIND complexitate
+DELKW test1 algoritm
+FIND algoritm
+ADD test3 70 1 algoritm
+FIND algoritm
+DEL test1
+FIND programare
+FIND complexitate
+DELKW test2 programare
+FIND programare
+PRINT

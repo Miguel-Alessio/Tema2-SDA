@@ -1,0 +1,13 @@
+12
+ADD test 100 3 mure mere pere
+PRINT
+DEL test
+PRINT
+ADD test 50 2 banane portocale
+ADD test 50 5 banane portocale mure mere pere
+PRINT
+ADD alt 75 3 mere struguri portocale
+DEL test
+PRINT
+ADD test 50 5 banane struguri mure mere pere
+PRINT

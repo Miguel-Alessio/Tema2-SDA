@@ -1,0 +1,11 @@
+10
+ADD JinSakai 97 3 samurai ghost tsushima
+ADD Yuna 85 2 thief survivor
+ADD LordShimura 89 3 samurai honor jito
+ADD Khotun 86 2 mongol warlord
+DEL LordShimura
+PRINT
+ADD Atsu 94 3 ghost warrior yotei
+ADD Taka 80 2 thief survivor
+ADD Masako 88 2 samurai vengeance
+PRINT

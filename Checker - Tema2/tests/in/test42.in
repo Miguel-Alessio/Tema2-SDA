@@ -1,0 +1,7 @@
+6
+ADD fisier1 80 2 scoala elev
+ADD fisier2 95 3 carte lectura autor
+ADD fisier3 60 2 teme concurs
+ADD fisier4 88 2 elev premiu
+ADD fisier5 70 2 scoala catalog
+PRINT

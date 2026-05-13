@@ -1,0 +1,21 @@
+OK
+OK
+OK
+OK
+catalog 1 f1 
+elev 2 f1 f2 
+pauza 1 f2 
+profesor 2 f1 f2 
+scoala 2 f1 f2 
+OK
+OK
+elev 2 f1 f2 
+profesor 2 f1 f2 
+scoala 2 f1 f2 
+OK
+elev 1 f2 
+profesor 1 f2 
+scoala 1 f2 
+OK
+NOT FOUND
+EMPTY

@@ -1,0 +1,19 @@
+18
+ADD geografie 85 62 munte deal campie fluviu delta mare ocean mlastina pestera vulcan insula peninsula istm golf stramtoare relief altitudine latitudine longitudine harta busola rucsac traseu poteca varf creasta versant prapastie grohota zapada gheata izvor parau rau cascada lac balti stuf salcie padure brad stejar fag molid vegetatie fauna flora urs lup cerb vulpe capra marmota vultur soim ecosistem rezervatie parcnational drum turism popas cabana
+PRINT
+ADDKW geografie sedimente
+ADDKW geografie eroziune
+ADDKW geografie faleza
+ADDKW geografie estuar
+ADDKW geografie grind
+PRINT
+DEL geografie
+PRINT
+ADD biologie 92 56 celula nucleu membrana tesut organ sistem organism planta animal mamifer pasare peste reptila amfibian insecta vertebrate fotosinteza clorofila radacina tulpina frunza floare fruct samanta polen albina polenizare mediu adaptare evolutie selectie genetica ereditate specie gen familie ordin clasa regat bacterie virus ciuperca ecosistem habitat biotop biocenoza pradator prada simbioza parazitism respiratie digestie circulatie nervos muschi os
+PRINT
+ADDKW biologie adn
+ADDKW biologie enzima
+ADDKW biologie proteina
+PRINT
+DEL biologie
+PRINT

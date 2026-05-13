@@ -1,0 +1,287 @@
+OK
+OK
+OK
+2 d0 d1 
+2 d0 d2 
+OK
+OK
+EMPTY
+3 d0 d2 d3 
+EMPTY
+OK
+EMPTY
+3 d0 d2 d3 
+2 d0 d3 
+1 d2 
+OK
+OK
+OK
+2 d0 d4 
+1 d4 
+2 d2 d4 
+OK
+NOT FOUND
+OK
+abis 2 d0 d5 
+algoritm 3 d2 d4 d5 
+ametist 3 d0 d4 d5 
+amurg 1 d0 
+atlas 1 d0 
+azur 3 d2 d4 d5 
+brad 1 d2 
+busola 1 d0 
+cafea 2 d0 d2 
+castel 2 d0 d5 
+ceara 2 d0 d5 
+chitara 2 d0 d4 
+coliba 3 d0 d4 d5 
+cometa 2 d0 d5 
+coral 2 d0 d5 
+cristal 2 d4 d5 
+cuantic 2 d4 d5 
+ecou 1 d4 
+efemer 1 d2 
+elixir 2 d0 d5 
+fantana 3 d2 d4 d5 
+flacara 3 d0 d2 d4 
+fluture 3 d0 d2 d4 
+freamat 2 d0 d5 
+fulger 3 d2 d4 d5 
+galaxie 3 d0 d2 d4 
+izvor 1 d2 
+jar 2 d2 d4 
+labirint 1 d0 
+lup 3 d0 d4 d5 
+mar 1 d0 
+margean 1 d2 
+mesteacan 2 d2 d4 
+munte 2 d2 d4 
+nectar 2 d4 d5 
+nisip 3 d0 d4 d5 
+nor 2 d0 d4 
+ocean 2 d0 d2 
+oglinda 3 d0 d2 d4 
+orizont 4 d0 d2 d4 d5 
+padure 4 d0 d2 d4 d5 
+pasare 3 d0 d4 d5 
+penita 1 d5 
+penumbra 2 d4 d5 
+pergament 1 d2 
+pian 2 d4 d5 
+praf 2 d0 d5 
+prisma 2 d2 d4 
+randunica 2 d2 d4 
+roua 2 d0 d5 
+rucsac 3 d2 d4 d5 
+sarma 4 d0 d2 d4 d5 
+scanteie 3 d0 d4 d5 
+sclipici 3 d0 d4 d5 
+scoica 2 d4 d5 
+sfera 3 d0 d2 d4 
+sidef 3 d0 d2 d5 
+smarald 3 d0 d2 d5 
+spectru 3 d2 d4 d5 
+spirala 3 d0 d2 d4 
+stea 1 d0 
+stejar 3 d0 d2 d4 
+tacere 3 d0 d2 d5 
+telescop 2 d0 d2 
+timp 1 d0 
+umbra 3 d0 d4 d5 
+univers 2 d0 d4 
+vant 1 d4 
+vis 2 d0 d2 
+viteza 2 d0 d5 
+vulcan 1 d5 
+vultur 1 d2 
+zambet 1 d4 
+zbor 1 d4 
+2 d0 d4 
+3 d0 d5 d4 
+4 d0 d2 d4 d5 
+OK
+NOT FOUND
+3 d2 d4 d6 
+OK
+OK
+EMPTY
+4 d0 d4 d5 d7 
+abis 3 d0 d5 d7 
+algoritm 4 d2 d4 d5 d7 
+ametist 4 d0 d4 d5 d7 
+amurg 2 d0 d6 
+atlas 2 d0 d7 
+azur 3 d2 d4 d5 
+brad 1 d2 
+busola 2 d0 d7 
+cafea 2 d0 d2 
+castel 2 d0 d5 
+ceara 2 d0 d5 
+chitara 3 d0 d4 d7 
+coliba 3 d0 d4 d5 
+cometa 2 d0 d5 
+coral 2 d0 d5 
+cristal 2 d4 d5 
+cuantic 3 d4 d5 d7 
+ecou 1 d4 
+efemer 2 d2 d7 
+elixir 3 d0 d5 d6 
+fantana 4 d2 d4 d5 d7 
+flacara 3 d0 d2 d4 
+fluture 4 d0 d2 d4 d6 
+freamat 2 d0 d5 
+fulger 5 d2 d4 d5 d6 d7 
+galaxie 5 d0 d2 d4 d6 d7 
+izvor 2 d2 d6 
+jar 4 d2 d4 d6 d7 
+labirint 2 d0 d6 
+lup 4 d0 d4 d5 d7 
+mar 1 d0 
+margean 2 d2 d7 
+mesteacan 3 d2 d4 d7 
+munte 3 d2 d4 d7 
+nectar 4 d4 d5 d6 d7 
+nisip 4 d0 d4 d5 d7 
+nor 2 d0 d4 
+ocean 3 d0 d2 d7 
+oglinda 3 d0 d2 d4 
+orizont 5 d0 d2 d4 d5 d6 
+padure 5 d0 d2 d4 d5 d7 
+pasare 4 d0 d4 d5 d7 
+penita 2 d5 d7 
+penumbra 3 d4 d5 d7 
+pergament 1 d2 
+pian 2 d4 d5 
+praf 2 d0 d5 
+prisma 3 d2 d4 d7 
+randunica 3 d2 d4 d7 
+roua 2 d0 d5 
+rucsac 3 d2 d4 d5 
+sarma 4 d0 d2 d4 d5 
+scanteie 4 d0 d4 d5 d7 
+sclipici 3 d0 d4 d5 
+scoica 2 d4 d5 
+sfera 4 d0 d2 d4 d7 
+sidef 3 d0 d2 d5 
+smarald 4 d0 d2 d5 d7 
+spectru 4 d2 d4 d5 d7 
+spirala 4 d0 d2 d4 d7 
+stea 1 d0 
+stejar 3 d0 d2 d4 
+tacere 3 d0 d2 d5 
+telescop 2 d0 d2 
+timp 2 d0 d7 
+umbra 3 d0 d4 d5 
+univers 2 d0 d4 
+vant 1 d4 
+vis 2 d0 d2 
+viteza 2 d0 d5 
+vulcan 2 d5 d7 
+vultur 1 d2 
+zambet 1 d4 
+zbor 1 d4 
+1 d4 
+EMPTY
+OK
+4 d2 d4 d6 d7 
+EMPTY
+2 d2 d7 
+OK
+3 d0 d2 d5 
+4 d0 d4 d5 d7 
+OK
+OK
+4 d0 d5 d6 d8 
+1 d5 
+OK
+4 d0 d2 d5 d8 
+OK
+3 d0 d5 d8 
+EMPTY
+OK
+OK
+3 d0 d7 d8 
+2 d0 d5 
+5 d0 d2 d5 d7 d8 
+OK
+4 d0 d5 d7 d8 
+4 d0 d2 d5 d7 
+2 d0 d5 
+OK
+OK
+OK
+OK
+EMPTY
+EMPTY
+abis 4 d0 d5 d7 d8 
+algoritm 4 d2 d5 d7 d8 
+ametist 5 d0 d5 d7 d8 d9 
+amurg 2 d0 d8 
+atlas 2 d0 d7 
+azur 3 d2 d5 d8 
+brad 2 d2 d8 
+busola 3 d0 d7 d8 
+cafea 2 d0 d2 
+castel 3 d0 d5 d8 
+ceara 2 d0 d5 
+chitara 3 d0 d7 d8 
+coliba 2 d0 d5 
+cometa 3 d0 d5 d8 
+coral 4 d0 d5 d8 d9 
+cristal 2 d5 d8 
+cuantic 3 d5 d7 d8 
+efemer 2 d2 d7 
+elixir 3 d0 d5 d8 
+fantana 3 d2 d5 d7 
+flacara 3 d0 d2 d8 
+fluture 3 d0 d2 d8 
+freamat 2 d0 d5 
+fulger 4 d2 d5 d7 d8 
+galaxie 4 d0 d2 d7 d8 
+izvor 2 d2 d8 
+jar 3 d2 d7 d8 
+labirint 2 d0 d8 
+lup 3 d0 d5 d7 
+mar 2 d0 d9 
+margean 2 d2 d7 
+mesteacan 3 d2 d7 d8 
+munte 2 d2 d7 
+nectar 3 d5 d7 d8 
+nisip 3 d0 d5 d7 
+nor 2 d0 d8 
+ocean 5 d0 d2 d7 d8 d9 
+oglinda 3 d0 d2 d8 
+orizont 4 d0 d2 d5 d8 
+padure 5 d0 d2 d5 d7 d9 
+pasare 4 d0 d5 d7 d9 
+penita 3 d5 d7 d8 
+penumbra 2 d5 d7 
+pergament 2 d2 d8 
+pian 2 d5 d8 
+praf 3 d0 d5 d8 
+prisma 3 d2 d7 d8 
+randunica 3 d2 d7 d8 
+roua 2 d0 d5 
+rucsac 3 d2 d5 d9 
+sarma 5 d0 d2 d5 d8 d9 
+scanteie 4 d0 d5 d7 d8 
+sclipici 4 d0 d5 d8 d9 
+scoica 2 d5 d9 
+sfera 5 d0 d2 d7 d8 d9 
+sidef 4 d0 d2 d5 d8 
+smarald 5 d0 d2 d5 d7 d9 
+spectru 4 d2 d5 d7 d8 
+spirala 3 d0 d2 d7 
+stea 2 d0 d8 
+stejar 2 d0 d2 
+tacere 3 d0 d2 d5 
+telescop 3 d0 d2 d8 
+timp 3 d0 d7 d8 
+umbra 2 d0 d5 
+univers 1 d0 
+vant 1 d8 
+vis 3 d0 d2 d8 
+viteza 3 d0 d5 d8 
+vulcan 3 d5 d7 d8 
+vultur 1 d2 
+zbor 1 d8 

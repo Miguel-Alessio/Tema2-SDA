@@ -1,0 +1,15 @@
+15
+ADD LukeSkywalker 95 3 jedi force lightsaber
+ADD DarthVader 98 3 sith force lightsaber
+ADD YodaMaster 96 3 jedi force wisdom
+ADD ObiWanKenobi 97 3 jedi master negotiator
+ADD PrincessLeia 90 2 rebel leader
+DEL PrincessLeia
+ADDKW DarthVader chosen
+DELKW LukeSkywalker force
+FIND jedi
+TOPK force 2
+PREFIX jed
+PREFIX li
+PREFIX fo
+PRINT

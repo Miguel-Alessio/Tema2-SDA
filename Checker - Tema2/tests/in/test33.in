@@ -1,0 +1,15 @@
+15
+ADD Geralt 97 3 witcher monster swords
+ADD Yennefer 93 3 sorceress magic chaos
+ADD Ciri 96 3 witcher princess elderblood
+ADD Triss 88 2 sorceress magic
+ADD Regis 85 2 vampire witcher
+DEL Triss
+ADDKW Ciri sorceress
+DELKW Yennefer chaos
+FIND witcher
+TOPK sorceress 2
+PREFIX wit
+PREFIX sor
+PREFIX mag
+PRINT

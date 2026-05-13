@@ -1,0 +1,16 @@
+15
+ADD a0 26 15 zbor brad efemer coral ametist lup abis tacere algoritm mesteacan vulcan munte ceara elixir fluture
+TOPK orizont 2
+PREFIX sco
+PREFIX ce
+DELKW a0 fluture
+FIND vulcan
+DELKW a0 brad
+PREFIX br
+DEL a0
+ADD a1 84 16 izvor fantana matase elixir fluture smarald univers efemer roua spirala nisip flacara abis umbra mesteacan ecou
+ADDKW a0 coliba
+DELKW a1 fantana
+PREFIX f
+PREFIX m
+PRINT

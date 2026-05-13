@@ -1,0 +1,106 @@
+105
+ADD doc0 22 46 semineu lume poiana cald masini turist ecou urs gheata prapastie frica intuneric vasle nuca traseu muzica ploaie somn mister valuri dezvoltare peisaj marinari lup poza vant beton comert sare padure adrenalina aer otel amintiri canale lanterna busola cabanier drum iarna bocanci sezlong sanie ancora munte istorie
+ADD doc1 39 39 trezire sport stanca formatiuni umbrela frica gheata semineu soare dezvoltare barca liniste rasarit muzica brad patura oras salcie lanterna umbra palmieri aglomeratie mal lumini faleza aventura comert stele sanie lumina canale ceai turist marinari harta zapada amintiri poza vin
+ADD doc2 81 17 vant picaturi nuca pasari istorie orientare mare lemne poza schi momeala sanie lumini urs curent liniste afaceri
+FIND schi
+PREFIX s
+ADD doc3 87 19 prapastie floare umbrela istorie nor cort curat vapor rucsac oras bani lumina pestera nisip distractie lup delta mister undita
+ADDKW doc1 lup
+FIND comert
+PREFIX lu
+TOPK lup 2
+DELKW doc0 marinari
+DELKW doc0 poza
+PREFIX po
+FIND ploaie
+FIND plasa
+TOPK istorie 1
+DELKW doc3 nor
+PREFIX nor
+ADD doc4 78 4 curaj fluviu palmieri patura
+ADDKW doc2 undita
+FIND amurg
+FIND cristal
+PREFIX und
+TOPK soare 2
+TOPK prapastie 1
+DELKW doc2 umbra
+DELKW doc2 picaturi
+ADD doc5 43 3 distractie floare efort
+ADDKW doc1 trezire
+DELKW doc0 undita
+DEL doc2
+TOPK floare 5
+TOPK florist 1
+ADD doc6 26 16 efort undita peisaj pescarusi masina lumini sare peste ploaie faleza vis dezvoltare dig formatiuni floare emotie
+ADDKW doc0 insula
+ADD doc7 74 12 picaturi campie transport curat harta cort patine amurg lanterna cabana efort cabanier
+ADDKW doc6 busola
+PREFIX fluv
+TOPK curat 1
+DEL doc5
+DEL doc4
+FIND adrenalina
+PREFIX fluv
+ADD doc8 77 1 mare
+ADDKW doc7 adancime
+FIND masini
+FIND aer
+PREFIX co
+ADD doc9 40 3 canale lumina lanterna
+ADDKW doc8 adancime
+TOPK adancime 3
+ADD doc10 61 4 delta cort reflectie istorie
+ADDKW doc3 ceata
+PREFIX ceai
+PREFIX refl
+FIND aventura
+ADD doc11 49 11 pestera marinar cald ancora parcare dig oras zapada timp stuf harta
+ADDKW doc10 somn
+TOPK marinar 2
+ADD doc12 10 18 vapor prapastie izvor echipa pelican insula frica urs masina ceata plaja zapada pescuit povesti explorare beton afaceri barcagiu
+ADDKW doc7 faleza
+ADD doc13 28 8 cort ploaie valuri dans istorie stele zapada lemne
+ADDKW doc6 tehnologie
+TOPK valuri 1
+ADD doc14 20 18 palmieri semineu sezlong curent umbrela cristal busola pescuit munte peste floare ceata vant ancora baterii emotie istorie gheata
+ADDKW doc12 cald
+DEL doc0
+ADD doc15 42 1 tacere
+ADDKW doc4 inot
+DELKW doc14 ceata
+ADD doc16 67 12 peste comert delta frig umbrela explorare ceata vasle plaja busola patine bocanci
+ADDKW doc4 indigo
+PREFIX cea
+TOPK inot 2
+DEL doc2
+DELKW doc4 padure
+DELKW doc14 beton
+DELKW doc16 pescuit
+DEL doc1
+DEL doc14
+DEL doc2
+FIND traseu
+PREFIX va
+PREFIX vas
+DEL doc15
+DELKW doc14 otel
+DEL doc9
+FIND viitor
+DELKW doc4 mare
+PREFIX vii
+FIND masini
+FIND lumina
+DELKW doc13 pelican
+DEL doc15
+ADD doc17 62 3 ceata sare peisaj
+TOPK ceata 2
+ADDKW doc10 dig
+DELKW doc12 viitor
+PREFIX ce
+DELKW doc16 distractie
+TOPK distractie 6
+DEL doc7
+DEL doc1
+DELKW doc3 amurg
+PRINT

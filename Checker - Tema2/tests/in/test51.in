@@ -1,0 +1,11 @@
+10
+ADD f_test 50 1 mere
+ADDKW f_inexistent pere
+ADDKW f_test mere
+ADDKW f_test pere
+PRINT
+ADD f_altul 40 1 pere
+ADDKW f_altul pere
+ADDKW f_celalalt mere
+ADDKW f_altul mere
+PRINT

@@ -1,0 +1,15 @@
+15
+ADD NathanDrake 98 3 treasure hunter adventurer
+ADD SullyMcaffrey 88 2 smuggler treasure
+ADD ElenaFisher 91 2 journalist adventurer
+ADD SamDrake 87 2 thief adventurer
+ADD ChloeFrager 89 2 adventurer relic
+DEL SullyMcaffrey
+ADDKW NathanDrake relic
+DELKW ChloeFrager relic
+FIND adventurer
+TOPK treasure 2
+PREFIX ad
+PREFIX tre
+PREFIX th
+PRINT

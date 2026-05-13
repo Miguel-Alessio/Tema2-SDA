@@ -1,0 +1,36 @@
+35
+ADD c0 22 50 scanteie ametist cometa fluture cafea telescop zambet izvor vultur jar pergament vant brad chitara elixir ecou padure munte randunica labirint stea sidef mesteacan margean abis umbra efemer freamat nor ceara sarma mar cristal stejar rucsac tacere spirala busola pasare cuantic castel sfera atlas scoica vis sclipici coliba lup nisip coral
+ADD c1 56 37 ceara pasare efemer cristal praf galaxie flacara ecou nisip algoritm roua munte vulcan sidef zambet sclipici izvor zbor elixir scoica stejar rucsac nectar sfera amurg jar fluture randunica cuantic vant scanteie cometa ocean freamat mesteacan coral vis
+ADD c2 29 22 matase viteza spectru brad ocean cafea atlas elixir flacara univers vultur telescop efemer nisip umbra praf spirala stejar sfera algoritm fulger padure
+ADD c3 77 48 vulcan spirala coliba penita busola pian padure pasare randunica spectru ametist univers atlas labirint zbor orizont efemer mesteacan sfera fulger smarald nor cometa cuantic munte vant pergament sarma ocean vultur viteza flacara sidef brad timp galaxie ceara fantana algoritm freamat mar chitara izvor elixir umbra amurg abis roua
+ADD c4 32 8 azur pian cometa viteza sidef pasare penumbra amurg
+ADDKW c3 nisip
+PREFIX nis
+TOPK margean 1
+ADD c5 85 10 tacere algoritm cuantic sarma cristal vis labirint pian zambet univers
+TOPK cuantic 4
+PREFIX ra
+PREFIX cu
+ADDKW c4 freamat
+PREFIX crist
+DELKW c5 cristal
+DELKW c5 amurg
+PREFIX cristal
+DELKW c0 brad
+ADD c6 61 4 sidef vulcan nectar zambet
+ADDKW c1 nectar
+TOPK nisip 2
+PREFIX sp
+PRINT
+DEL c3
+DELKW c3 vultur
+TOPK ful 2
+DEL c3
+ADD c7 66 46 coliba coral penumbra vant vulcan fluture azur padure roua fantana sclipici prisma algoritm tacere viteza randunica oglinda spirala pian pergament ocean smarald zambet elixir cometa sfera cuantic nisip nectar labirint scanteie nor efemer amurg flacara munte sidef vultur chitara rucsac atlas timp univers scoica jar izvor
+ADDKW c0 viteza
+TOPK galaxie 1
+FIND cometa
+DELKW c2 fluture
+PREFIX co
+TOPK randunica 2
+PRINT

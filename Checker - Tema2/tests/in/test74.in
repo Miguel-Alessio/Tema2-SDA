@@ -1,0 +1,13 @@
+12
+ADD list1 100 25 ampere avogadro archimede aristotel alhazen atom aerodinamica acustica astrofizica atractie acceleratie amestec aparat apogeu astronomie atmosfera ansamblu analizator anihilare anizotropie anod antena antineutron asociere asincron
+ADD list2 95 22 aurel vlaicu coanda asachi antipa avioane aparat aerian aripi aterizare ascensiune ambarcatiune ancora anihilare animal animatie anorganic anod anomalie atasament atlas atenuator
+PREFIX a
+PREFIX ana
+PREFIX apar
+PREFIX as
+PREFIX astro
+DELKW list1 atom
+PREFIX ato
+DEL list2
+PREFIX an
+PRINT

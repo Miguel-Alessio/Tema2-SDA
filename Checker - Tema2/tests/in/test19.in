@@ -1,0 +1,11 @@
+10
+ADD ShaoJun 91 3 assassin china brotherhood
+ADD AdawaleMaster 89 3 assassin pirate freedom
+ADD ArnoDorian 93 3 assassin paris mentor
+ADD ShayPatrickCormac 80 2 templar villain
+DEL ShayPatrickCormac
+ADDKW ArnoDorian brotherhood
+DELKW AdawaleMaster pirate
+PRINT
+ADD EliseDeLaSerre 87 2 templar ally
+PRINT

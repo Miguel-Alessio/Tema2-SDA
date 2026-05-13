@@ -1,0 +1,17 @@
+16
+ADD f_test 100 2 mare mar
+ADDKW f_test marea
+ADDKW f_test marele
+PRINT
+DELKW f_test marele
+PRINT
+DELKW f_test marea
+PRINT
+ADD f_altul 50 1 mar
+DEL f_test
+PRINT
+ADDKW f_altul marinar
+DELKW f_altul mar
+PRINT
+DEL f_altul
+PRINT

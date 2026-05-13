@@ -1,0 +1,13 @@
+12
+ADD d1 100 2 mar mare
+ADD d2 80 1 mare
+ADD d3 70 1 marea
+FIND mar
+FIND mare
+FIND marea
+DELKW d1 mare
+FIND mare
+ADDKW d2 marinar
+FIND mar
+FIND marinar
+PRINT

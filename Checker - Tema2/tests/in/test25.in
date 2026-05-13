@@ -1,0 +1,15 @@
+14
+ADD ElevenHopper 98 3 psychic upsidedown hawkins
+ADD MikeWheeler 84 2 party hawkins
+ADD DustinHenderson 86 2 party hawkins
+ADD MaxMayfield 85 2 party hawkins
+ADD HopperChief 90 3 chief hawkins upsidedown
+ADD SteveTruth 83 2 babysitter hawkins
+DEL SteveTruth
+ADDKW ElevenHopper hero
+ADDKW HopperChief survivor
+PRINT
+FIND hawkins
+FIND upsidedown
+DELKW MikeWheeler party
+PRINT

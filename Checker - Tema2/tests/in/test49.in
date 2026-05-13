@@ -1,0 +1,46 @@
+45
+ADD f1 50 5 scoala elev carte lectura autor
+ADD f2 55 6 scoala elev teme clasa pauza profesor
+ADD f3 40 5 scoala carte biblioteca raft citit
+ADD f4 60 7 scoala elev premiu concurs diploma efort succes
+ADD f5 45 6 scoala catalog note absente prezenta disciplina
+ADD f6 30 5 scoala elev joaca minge curte
+ADD f7 70 8 scoala carte lectura poveste basm erou scris desen
+ADD f8 80 5 scoala elev invatat examen stres
+ADD f9 20 6 scoala manual caiet pix guma creion
+ADD f10 90 7 scoala elev universitate curs laborator seminar licenta
+ADD f11 15 5 scoala gradinita copii jucarii educatoare
+ADD f12 35 6 scoala elev ghiozdan uniforma pantofi sport
+ADD f13 50 5 scoala carte poezie rima vers
+ADD f14 66 6 scoala elev prieten coleg banca tabla
+ADD f15 77 7 scoala vacanta vara mare munte distractie soare
+ADD f16 88 5 scoala elev olimpiada faza etapa
+ADD f17 99 6 scoala carte enciclopedie stiinta harti glob
+ADD f18 10 5 scoala elev autobuz drum statie
+ADD f19 44 6 scoala dictionar limba gramatica reguli exercitii
+ADD f20 55 5 scoala elev serbare scena aplauze
+ADD f21 22 5 scoala carte noutati raft imprumut
+PRINT
+DEL f1
+DEL f3
+DEL f7
+DEL f13
+DEL f17
+DEL f21
+PRINT
+DEL f1
+DEL f2
+DEL f4
+DEL f6
+DEL f8
+DEL f10
+DEL f12
+DEL f21
+PRINT
+ADD f1 45 6 scoala catalog note absente prezenta disciplina
+ADD f21 44 6 scoala dictionar limba gramatica reguli exercitii
+PRINT
+DEL f2
+DEL f2
+DEL f8
+PRINT

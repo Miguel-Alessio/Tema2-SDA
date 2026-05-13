@@ -1,0 +1,11 @@
+10
+ADD Abby 97 3 fireflies soldier revenge
+ADD Dina 88 3 survivor jackson fighter
+ADD JesseWilliams 84 2 survivor jackson
+ADD Isaac 86 2 wlf commander
+DEL Isaac
+ADDKW Abby wlf
+DELKW Dina fighter
+PRINT
+ADD Lev 90 3 seraphite wlf ally
+PRINT

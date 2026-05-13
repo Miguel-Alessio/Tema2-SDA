@@ -1,0 +1,10 @@
+9
+ADD LukeSkywalker 95 3 jedi force lightsaber
+ADD DarthVader 98 3 sith force lightsaber
+ADD YodaMaster 96 3 jedi force wisdom
+ADD HanSolo 82 2 rebel smuggler
+ADD PrincessLeia 90 2 rebel leader
+PRINT
+ADD EmperorPalpatine 99 2 sith emperor
+ADD R2D2 75 2 droid rebel
+PRINT

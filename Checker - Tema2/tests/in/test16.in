@@ -1,0 +1,11 @@
+10
+ADD SpiderMan 96 3 avenger hero webslinger
+ADD DrStrange 93 3 avenger sorcerer multiverse
+ADD WandaMaximoff 95 3 avenger witch chaos
+ADD Loki 88 3 villain trickster asgardian
+DEL Loki
+ADDKW SpiderMan multiverse
+DELKW WandaMaximoff avenger
+PRINT
+ADD NickFury 84 2 shield spy
+PRINT

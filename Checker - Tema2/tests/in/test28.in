@@ -1,0 +1,16 @@
+15
+ADD ErenYeager 99 3 titan shifter eldian
+ADD MikasaAckerman 97 3 soldier ackerman survey
+ADD ArminArlert 91 3 strategist survey eldian
+ADD AnnieLeonhart 86 2 titan warrior
+ADD LeviAckerman 98 3 soldier ackerman survey
+DEL AnnieLeonhart
+ADDKW ErenYeager founder
+DELKW ArminArlert strategist
+FIND survey
+TOPK survey 3
+TOPK titan 2
+ADD ReinerBraun 88 3 titan shifter warrior
+FIND titan
+TOPK ackerman 2
+PRINT

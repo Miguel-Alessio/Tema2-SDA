@@ -1,0 +1,26 @@
+25
+ADD morometii 95 2 drama istorie
+ADD dacii 88 2 istorie razboi
+ADD columna 89 2 istorie razboi
+ADD titanic 99 2 drama romance
+ADD gladiatorul 94 2 drama razboi
+ADD inception 97 2 thriller sf
+ADD matrix 96 2 actiune sf
+ADD avatar 93 2 aventura sf
+ADD tenet 85 2 thriller sf
+ADD memento 91 2 thriller mister
+PRINT
+ADDKW morometii premiu
+ADDKW titanic premiu
+ADDKW gladiatorul premiu
+ADDKW matrix premiu
+ADDKW dacii premiu
+TOPK sf 5
+TOPK drama 2
+TOPK premiu 10
+TOPK razboi 1
+DEL morometii
+TOPK drama 4
+TOPK istorie 1
+FIND premiu
+PRINT

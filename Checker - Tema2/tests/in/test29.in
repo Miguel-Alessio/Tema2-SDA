@@ -1,0 +1,15 @@
+14
+ADD YujiItadori 98 3 sorcerer cursed vessel
+ADD MegumiFushiguro 93 3 sorcerer shikigami cursed
+ADD NoboraKugisaki 88 2 sorcerer cursed
+ADD SatoruGojo 100 3 sorcerer infinity sensei
+ADD NoritoshiKamo 84 2 sorcerer cursed
+DEL NoritoshiKamo
+ADDKW YujiItadori divergent
+DELKW MegumiFushiguro shikigami
+FIND sorcerer
+TOPK sorcerer 3
+TOPK cursed 2
+ADD RyomenSukuna 99 2 cursed king
+FIND cursed
+PRINT

@@ -1,0 +1,9 @@
+8
+ADD IronMan 97 3 avenger genius billionaire
+ADD CaptainAmerica 91 2 avenger supersoldier
+ADD Thor 89 3 avenger asgardian thunder
+ADD BlackWidow 85 2 avenger spy
+ADD Thanos 99 2 villain infinity
+PRINT
+ADD Hulk 88 2 avenger supersoldier
+PRINT

@@ -1,0 +1,28 @@
+27
+ADD r1 90 3 faina drojdie sare
+ADD r2 85 3 apa zahar drojdie
+ADD r3 77 2 faina lapte
+ADD r4 99 4 ou lapte zahar vanilie
+ADD r5 60 2 sare piper
+ADD r6 92 3 carne ceapa ulei
+ADD r7 81 3 orez apa sare
+ADD r8 88 3 faina unt ou
+ADD r9 75 2 mere zahar
+ADD r10 94 3 cartofi ulei sare
+ADD r10 96 3 sare sare sare
+ADD r11 66 2 ceapa morcov
+ADD r12 80 3 paine unt gem
+ADD r13 70 2 lapte miere
+ADD r14 83 3 faina ou drojdie
+ADD r15 91 2 cacao zahar
+ADD r16 77 3 otet sare apa
+ADD r17 89 2 nuca zahar
+ADD r18 95 3 paste rosii busuioc
+ADD r19 68 2 ulei otet
+ADD r20 82 3 iaurt miere nuci
+ADD r21 73 2 visine zahar
+ADD r22 96 4 faina drojdie apa ulei
+ADD r23 87 2 malai sare
+ADD r24 79 3 branza ou marar
+ADD r25 93 3 dovlecel faina ou
+PRINT

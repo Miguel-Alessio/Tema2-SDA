@@ -1,0 +1,12 @@
+11
+ADD f3 90 1 munte
+ADD f1 80 1 munte
+ADD f2 85 1 munte
+FIND munte
+FIND mare
+DELKW f2 munte
+FIND munte
+DEL f1
+FIND munte
+DEL f3
+FIND munte

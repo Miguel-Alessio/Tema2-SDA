@@ -1,0 +1,25 @@
+OK
+OK
+OK
+OK
+OK
+force 3 DarthVader LukeSkywalker YodaMaster 
+jedi 2 LukeSkywalker YodaMaster 
+leader 1 PrincessLeia 
+lightsaber 2 DarthVader LukeSkywalker 
+rebel 2 HanSolo PrincessLeia 
+sith 1 DarthVader 
+smuggler 1 HanSolo 
+wisdom 1 YodaMaster 
+OK
+OK
+droid 1 R2D2 
+emperor 1 EmperorPalpatine 
+force 3 DarthVader LukeSkywalker YodaMaster 
+jedi 2 LukeSkywalker YodaMaster 
+leader 1 PrincessLeia 
+lightsaber 2 DarthVader LukeSkywalker 
+rebel 3 HanSolo PrincessLeia R2D2 
+sith 2 DarthVader EmperorPalpatine 
+smuggler 1 HanSolo 
+wisdom 1 YodaMaster 

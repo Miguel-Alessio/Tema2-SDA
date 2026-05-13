@@ -1,0 +1,11 @@
+10
+ADD enescu 95 2 compozitor vioara
+ADD elisabeth 80 1 pian
+ADD eminescu 99 2 poet literatura
+ADD eugen 70 1 dramaturg
+PREFIX emi
+PREFIX d
+PREFIX comp
+ADDKW elisabeth compozitor
+PREFIX compoz
+PRINT

@@ -1,0 +1,23 @@
+22
+ADD b0 86 13 randunica smarald oglinda ecou freamat tacere roua penumbra stejar ceara vis vultur scanteie
+ADD b1 47 10 scanteie vant labirint cristal vis brad busola tacere rucsac sidef
+PREFIX sc
+ADD b2 90 27 sfera lup sclipici penumbra cuantic scoica vis telescop amurg scanteie pergament busola spectru ametist umbra mar ocean fulger mesteacan vulcan vant efemer viteza flacara coliba univers cafea
+ADDKW b1 smarald
+DELKW b0 vis
+PREFIX sma
+DELKW b1 smarald
+PREFIX smar
+DEL b0
+FIND rucsac
+DEL b1
+ADD b3 17 3 pian busola vant
+ADDKW b0 spirala
+TOPK busola 2
+ADD b4 78 15 sfera cometa coliba labirint praf nisip amurg ametist cuantic chitara munte mar jar pergament roua
+ADDKW b3 zbor
+PREFIX z
+PREFIX co
+DELKW b3 pian
+PREFIX p
+PRINT

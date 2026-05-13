@@ -1,0 +1,11 @@
+OK
+EXISTS
+OK
+a 1 doc1 
+mar 1 doc2 
+OK
+OK
+a 1 doc1 
+mar 1 doc2 
+munte 1 doc3 
+x 1 doc4 

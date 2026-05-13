@@ -1,0 +1,11 @@
+10
+ADD ObiWanKenobi 97 3 jedi master negotiator
+ADD AnakinSkywalker 95 3 jedi chosen force
+ADD PadmeAmidala 88 2 senator republic
+ADD GrievousGeneral 84 2 cyborg separatist
+DEL GrievousGeneral
+ADDKW AnakinSkywalker sith
+DELKW ObiWanKenobi negotiator
+PRINT
+ADD MaceWindu 91 2 jedi master
+PRINT

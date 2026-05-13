@@ -1,0 +1,8 @@
+7
+ADD doc1 100 1 a
+ADD doc1 100 1 eroare
+ADD doc2 75 3 mar mar mar
+PRINT
+ADD doc3 90 2 munte munte
+ADD doc4 10 1 x
+PRINT

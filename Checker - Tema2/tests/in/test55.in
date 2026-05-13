@@ -1,0 +1,95 @@
+94
+ADD doc0 2 1 palmieri
+ADD doc1 46 1 brad
+ADD doc2 15 1 efort
+ADD doc3 58 1 ceata
+ADD doc4 16 1 bocanci
+ADDKW doc1 munte
+ADDKW doc4 tacere
+PRINT
+ADDKW doc2 campie
+PRINT
+DEL doc2
+ADDKW doc0 brad
+ADD doc5 2 1 afaceri
+ADDKW doc4 zgomot
+PRINT
+DEL doc4
+ADD doc6 92 1 prapastie
+DEL doc3
+ADDKW doc2 pestera
+PRINT
+ADDKW doc0 parcare
+ADDKW doc3 padure
+PRINT
+ADDKW doc5 formatiuni
+PRINT
+ADDKW doc2 natura
+DEL doc3
+ADDKW doc0 ancora
+PRINT
+ADDKW doc4 poze
+ADDKW doc5 comert
+ADDKW doc2 marinari
+ADDKW doc1 masina
+ADDKW doc4 insula
+ADD doc7 34 1 istorie
+DEL doc3
+ADD doc8 60 1 dig
+ADDKW doc8 violet
+ADDKW doc3 transport
+ADDKW doc8 sezlong
+PRINT
+ADDKW doc5 plaja
+ADD doc9 80 1 afaceri
+ADD doc10 4 1 insula
+ADDKW doc8 peisaj
+ADDKW doc6 umbrela
+ADD doc11 69 1 sticla
+ADDKW doc5 patine
+PRINT
+ADDKW doc9 aer
+PRINT
+ADDKW doc10 umbrela
+ADDKW doc6 cald
+PRINT
+ADDKW doc10 traseu
+DEL doc7
+ADDKW doc4 somn
+ADD doc12 55 1 ancora
+ADDKW doc4 foc
+PRINT
+ADDKW doc2 oras
+ADDKW doc11 campie
+ADDKW doc1 lanterna
+ADDKW doc2 aglomeratie
+ADD doc13 39 1 informatii
+ADDKW doc5 pelican
+ADDKW doc8 plaja
+ADD doc14 92 1 stanca
+ADDKW doc7 rasarit
+DEL doc10
+ADDKW doc4 urs
+ADDKW doc6 poze
+ADDKW doc4 undita
+ADDKW doc10 padure
+ADD doc15 97 1 campie
+ADDKW doc10 canale
+ADDKW doc14 picaturi
+ADD doc16 99 1 patura
+DEL doc5
+ADD doc17 84 1 sanie
+DEL doc4
+ADD doc18 5 1 plaja
+DEL doc16
+DEL doc17
+ADDKW doc12 rasarit
+ADD doc19 65 1 pescarusi
+ADDKW doc12 munte
+ADD doc20 46 1 otel
+ADDKW doc6 comert
+PRINT
+ADD doc21 63 1 plaja
+ADDKW doc10 vapor
+ADDKW doc0 rasarit
+PRINT

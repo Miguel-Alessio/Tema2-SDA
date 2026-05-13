@@ -1,0 +1,10 @@
+9
+ADD NathanDrake 98 3 treasure hunter adventurer
+ADD SullyMcaffrey 88 2 smuggler treasure
+ADD ElenaFisher 91 2 journalist adventurer
+ADD RafeAdler 83 2 villain treasure
+DEL RafeAdler
+PRINT
+ADD SamDrake 87 2 thief adventurer
+ADD ChloeFrager 89 2 adventurer relic
+PRINT

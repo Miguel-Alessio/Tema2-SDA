@@ -1,0 +1,13 @@
+12
+ADD einstein 100 2 fizica relativitate
+ADD newton 100 2 fizica gravitatie
+ADD pitagora 90 2 teorema triunghi
+ADD thales 90 2 teorema triunghi
+ADD curie 95 1 fizica
+TOPK fizica 3
+TOPK fizica 2
+TOPK fizica 1
+TOPK teorema 5
+TOPK gravitatie 1
+FIND fizica
+PRINT

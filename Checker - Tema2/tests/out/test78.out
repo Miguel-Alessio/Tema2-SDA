@@ -1,0 +1,179 @@
+OK
+OK
+OK
+OK
+OK
+OK
+4 c0 c1 c2 c3 
+1 c0 
+OK
+4 c5 c3 c1 c0 
+3 c0 c1 c3 
+4 c0 c1 c3 c5 
+OK
+3 c0 c1 c5 
+OK
+OK
+2 c0 c1 
+OK
+OK
+OK
+2 c3 c1 
+3 c0 c2 c3 
+abis 2 c0 c3 
+algoritm 4 c1 c2 c3 c5 
+ametist 2 c0 c3 
+amurg 3 c1 c3 c4 
+atlas 3 c0 c2 c3 
+azur 1 c4 
+brad 2 c2 c3 
+busola 2 c0 c3 
+cafea 2 c0 c2 
+castel 1 c0 
+ceara 3 c0 c1 c3 
+chitara 2 c0 c3 
+coliba 2 c0 c3 
+cometa 4 c0 c1 c3 c4 
+coral 2 c0 c1 
+cristal 2 c0 c1 
+cuantic 4 c0 c1 c3 c5 
+ecou 2 c0 c1 
+efemer 4 c0 c1 c2 c3 
+elixir 4 c0 c1 c2 c3 
+fantana 1 c3 
+flacara 3 c1 c2 c3 
+fluture 2 c0 c1 
+freamat 4 c0 c1 c3 c4 
+fulger 2 c2 c3 
+galaxie 2 c1 c3 
+izvor 3 c0 c1 c3 
+jar 2 c0 c1 
+labirint 3 c0 c3 c5 
+lup 1 c0 
+mar 2 c0 c3 
+margean 1 c0 
+matase 1 c2 
+mesteacan 3 c0 c1 c3 
+munte 3 c0 c1 c3 
+nectar 2 c1 c6 
+nisip 4 c0 c1 c2 c3 
+nor 2 c0 c3 
+ocean 3 c1 c2 c3 
+orizont 1 c3 
+padure 3 c0 c2 c3 
+pasare 4 c0 c1 c3 c4 
+penita 1 c3 
+penumbra 1 c4 
+pergament 2 c0 c3 
+pian 3 c3 c4 c5 
+praf 2 c1 c2 
+randunica 3 c0 c1 c3 
+roua 2 c1 c3 
+rucsac 2 c0 c1 
+sarma 3 c0 c3 c5 
+scanteie 2 c0 c1 
+sclipici 2 c0 c1 
+scoica 2 c0 c1 
+sfera 4 c0 c1 c2 c3 
+sidef 5 c0 c1 c3 c4 c6 
+smarald 1 c3 
+spectru 2 c2 c3 
+spirala 3 c0 c2 c3 
+stea 1 c0 
+stejar 3 c0 c1 c2 
+tacere 2 c0 c5 
+telescop 2 c0 c2 
+timp 1 c3 
+umbra 3 c0 c2 c3 
+univers 3 c2 c3 c5 
+vant 3 c0 c1 c3 
+vis 3 c0 c1 c5 
+viteza 3 c2 c3 c4 
+vulcan 3 c1 c3 c6 
+vultur 3 c0 c2 c3 
+zambet 4 c0 c1 c5 c6 
+zbor 2 c1 c3 
+OK
+NOT FOUND
+EMPTY
+NOT FOUND
+OK
+OK
+1 c1 
+4 c0 c1 c4 c7 
+OK
+4 c0 c1 c4 c7 
+2 c7 c1 
+abis 1 c0 
+algoritm 4 c1 c2 c5 c7 
+ametist 1 c0 
+amurg 3 c1 c4 c7 
+atlas 3 c0 c2 c7 
+azur 2 c4 c7 
+brad 1 c2 
+busola 1 c0 
+cafea 2 c0 c2 
+castel 1 c0 
+ceara 2 c0 c1 
+chitara 2 c0 c7 
+coliba 2 c0 c7 
+cometa 4 c0 c1 c4 c7 
+coral 3 c0 c1 c7 
+cristal 2 c0 c1 
+cuantic 4 c0 c1 c5 c7 
+ecou 2 c0 c1 
+efemer 4 c0 c1 c2 c7 
+elixir 4 c0 c1 c2 c7 
+fantana 1 c7 
+flacara 3 c1 c2 c7 
+fluture 3 c0 c1 c7 
+freamat 3 c0 c1 c4 
+fulger 1 c2 
+galaxie 1 c1 
+izvor 3 c0 c1 c7 
+jar 3 c0 c1 c7 
+labirint 3 c0 c5 c7 
+lup 1 c0 
+mar 1 c0 
+margean 1 c0 
+matase 1 c2 
+mesteacan 2 c0 c1 
+munte 3 c0 c1 c7 
+nectar 3 c1 c6 c7 
+nisip 4 c0 c1 c2 c7 
+nor 2 c0 c7 
+ocean 3 c1 c2 c7 
+oglinda 1 c7 
+padure 3 c0 c2 c7 
+pasare 3 c0 c1 c4 
+penumbra 2 c4 c7 
+pergament 2 c0 c7 
+pian 3 c4 c5 c7 
+praf 2 c1 c2 
+prisma 1 c7 
+randunica 3 c0 c1 c7 
+roua 2 c1 c7 
+rucsac 3 c0 c1 c7 
+sarma 2 c0 c5 
+scanteie 3 c0 c1 c7 
+sclipici 3 c0 c1 c7 
+scoica 3 c0 c1 c7 
+sfera 4 c0 c1 c2 c7 
+sidef 5 c0 c1 c4 c6 c7 
+smarald 1 c7 
+spectru 1 c2 
+spirala 3 c0 c2 c7 
+stea 1 c0 
+stejar 3 c0 c1 c2 
+tacere 3 c0 c5 c7 
+telescop 2 c0 c2 
+timp 1 c7 
+umbra 2 c0 c2 
+univers 3 c2 c5 c7 
+vant 3 c0 c1 c7 
+vis 3 c0 c1 c5 
+viteza 4 c0 c2 c4 c7 
+vulcan 3 c1 c6 c7 
+vultur 3 c0 c2 c7 
+zambet 5 c0 c1 c5 c6 c7 
+zbor 1 c1 

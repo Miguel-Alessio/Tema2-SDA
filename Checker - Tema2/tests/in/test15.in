@@ -1,0 +1,10 @@
+9
+ADD Denji 97 3 devil hunter chainsaw
+ADD PowerBlood 92 3 devil fiend blood
+ADD HayakawaAki 88 3 hunter devil sword
+ADD GhostDevil 85 2 devil cursed
+DEL GhostDevil
+ADDKW Denji fiend
+PRINT
+ADD MakimaSan 99 3 control devil hunter
+PRINT

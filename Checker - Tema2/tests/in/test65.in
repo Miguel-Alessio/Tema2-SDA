@@ -1,0 +1,107 @@
+106
+ADD doc0 31 138 urs violet izvor turist sanie frica pescuit ploaie mister valuri beton rece parcare faleza ecou lanterna trezire picaturi momeala formatiuni inot liniste dig undita rasarit floare ancora semineu ceata peste iarna foc delta sare poze stanca echipa amurg soare vapor poza zapada plasa indigo povesti patura umbra prapastie umbrela tacere cald aer rucsac transport muzica distractie adrenalina curent sezlong dezvoltare traseu vasle tehnologie padure frig brad intuneric nuca pamant lumini somn vant busola stuf bani vis patine ceai pescarusi barca pelican istorie explorare nor dans campie adancime poiana scoici cabanier afaceri palmieri orientare curat plaja oras stele pestera aglomeratie gheata motor comert baterii apa lemne pod otel zgomot informatii lup barcagiu harta efort lume fluviu masini vin munte mare sport viitor nisip reflectie relaxare emotie prieteni mal cristal timp cort drum peisaj port pasari curaj cabana salcie schi
+ADD doc1 11 75 pamant turist dans sticla lume brad poiana peisaj umbrela dig vin prieteni oras explorare nor istorie vasle urs barca pescarusi cort sezlong aer aglomeratie somn undita lanterna afaceri canale rece cristal zgomot harta pelican pescuit rasarit otel barcagiu sare lup intuneric viitor marinari parcare nisip faleza masini iarna dezvoltare padure natura violet sport tehnologie marfa stuf formatiuni rucsac campie noapte trezire poza pasari transport peste bocanci insula izvor schi lumina patura nuca indigo apa tacere
+ADD doc2 46 77 poiana orientare cort peisaj brad indigo vis lume lemne palmieri timp zapada comert viitor schi formatiuni curent patura padure rasarit stele cristal sare lup zgomot munte nor sezlong frig faleza sanie lumini afaceri iarna otel poza ecou canale ceata peste plasa turist oras nisip rece tehnologie pescarusi mister sport vapor pescuit urs pestera gheata umbrela aventura dans relaxare prapastie ancora momeala lanterna cabana noapte bocanci pelican explorare aer somn undita marinari foc transport plaja mare intuneric adrenalina
+ADD doc3 3 123 muzica parcare stele mal curent tehnologie momeala foc port busola pescarusi salcie somn viitor ancora beton frig aer ceai vapor floare peste apa mare campie ploaie prapastie turist timp ceata barca barcagiu sticla relaxare umbra intuneric valuri curat pasari dig povesti comert plaja picaturi soare lume orientare lup istorie drum munte canale indigo bocanci poze noapte rasarit aventura cristal vin zapada stanca amintiri amurg vasle traseu motor afaceri formatiuni fluviu trezire peisaj efort liniste marfa rucsac ecou pescuit nisip mister natura stuf explorare masini semineu distractie lumina lemne lumini palmieri nuca rece dans patura echipa urs schi transport curaj otel undita pamant cabanier inot bani aglomeratie adrenalina masina izvor pestera cald emotie reflectie baterii oras padure dezvoltare prieteni tacere sanie cabana faleza informatii
+ADD doc4 94 61 indigo distractie fluviu liniste foc emotie marinari orientare plasa lanterna stuf amurg noapte bani mare violet nor baterii istorie faleza iarna valuri amintiri viitor pescuit ecou sport semineu stanca sanie sticla parcare masini aer explorare barca harta pamant momeala aventura poiana canale lume poze munte delta palmieri schi dezvoltare campie tehnologie padure plaja peisaj cabanier dig pod muzica frica vis port
+ADD doc5 74 111 explorare viitor efort traseu lumina poiana ceai lemne povesti aglomeratie pelican foc peisaj relaxare istorie tehnologie semineu ecou adancime masina harta patura turist urs prieteni busola amintiri curat aer floare lume sare orientare natura otel rece undita somn stanca scoici formatiuni inot plasa vin barcagiu tacere dig pescuit lumini soare beton faleza dezvoltare rucsac ceata ancora palmieri salcie sport barca stuf valuri mare padure aventura oras peste fluviu patine intuneric zapada reflectie picaturi rasarit campie mister emotie vant muzica ploaie sezlong noapte dans pamant poze pod plaja zgomot momeala cristal vis schi pasari informatii curent umbra nuca transport lup motor frig drum masini timp canale nor izvor amurg trezire vapor echipa
+DELKW doc0 timp
+FIND pestera
+ADDKW doc2 dezvoltare
+DELKW doc0 emotie
+PRINT
+FIND lup
+ADDKW doc3 mister
+DEL doc2
+DELKW doc2 otel
+DELKW doc2 tacere
+PRINT
+DELKW doc0 poza
+PRINT
+FIND zapada
+ADDKW doc5 dans
+ADD doc6 2 91 noapte fluviu vapor lume zapada pestera apa harta floare nor barcagiu oras ecou mare intuneric palmieri sezlong insula beton sticla undita nisip aer rasarit transport zgomot turist afaceri mal dans tacere mister relaxare amintiri peisaj sare plaja curaj frig reflectie prapastie iarna distractie masina padure adancime lumina prieteni ploaie echipa curat curent bani delta stuf tehnologie frica foc lemne gheata violet pelican scoici natura pescuit aventura indigo marfa lup aglomeratie vasle brad ceata rucsac stanca efort drum busola somn nuca baterii urs adrenalina munte timp cald schi picaturi umbra explorare viitor
+DELKW doc3 picaturi
+FIND oras
+ADDKW doc4 umbrela
+ADD doc7 60 149 natura curaj marinari nor port scoici frig poiana peisaj poza bocanci explorare palmieri zapada sport ancora lemne cort baterii efort indigo aglomeratie emotie pelican semineu patine otel ceata viitor sticla prieteni tehnologie vapor nisip lup vin patura cald tacere orientare busola trezire salcie rucsac aventura campie relaxare urs reflectie turist pescuit ceai ecou vis pestera echipa floare harta barca stele timp comert lume violet drum rasarit noapte cabana momeala bani valuri muzica fluviu pod pasari iarna adancime faleza vasle pamant nuca pescarusi sanie zgomot istorie soare izvor barcagiu somn schi dezvoltare dig lanterna mister sezlong umbra delta poze foc parcare informatii amurg lumini undita stuf mal transport formatiuni cabanier ploaie mare lumina beton plaja curent rece masina oras brad amintiri munte distractie marfa liniste povesti traseu canale padure insula stanca inot sare plasa afaceri dans prapastie frica cristal umbrela motor adrenalina curat gheata aer apa peste picaturi intuneric masini
+DELKW doc0 fluviu
+DELKW doc0 motor
+PRINT
+FIND stuf
+ADDKW doc0 peisaj
+DELKW doc7 rasarit
+PRINT
+ADD doc8 77 117 fluviu canale salcie lup orientare pestera vapor sezlong lume iarna aglomeratie emotie masini brad pescuit lanterna umbra picaturi apa reflectie peste aer vasle curat soare ecou drum palmieri stuf liniste nisip umbrela frica efort relaxare baterii rucsac pescarusi noapte stanca rasarit tehnologie informatii sare lumina echipa formatiuni amurg munte foc prapastie zapada distractie adrenalina amintiri urs patura cristal natura vin afaceri transport indigo ceai ploaie curent busola pod schi mister mare aventura curaj cabana vant zgomot dig viitor barcagiu pelican stele somn plaja undita violet pasari poza valuri povesti sanie explorare dezvoltare sport poze prieteni beton gheata intuneric adancime momeala floare cabanier port pamant poiana faleza vis scoici oras patine insula ceata ancora frig marinari istorie muzica
+DELKW doc6 padure
+FIND ecou
+ADDKW doc4 masini
+FIND poza
+ADDKW doc2 umbra
+DELKW doc5 sare
+PRINT
+FIND vis
+ADDKW doc7 adrenalina
+DEL doc4
+DELKW doc2 indigo
+DELKW doc4 ancora
+PRINT
+FIND plasa
+ADDKW doc4 marinari
+DEL doc1
+DELKW doc2 pescarusi
+FIND pasari
+ADDKW doc4 marinari
+DELKW doc3 valuri
+PRINT
+DELKW doc1 marfa
+PRINT
+FIND canale
+ADDKW doc6 vasle
+FIND campie
+ADDKW doc0 undita
+ADD doc9 14 137 timp patura povesti port barcagiu harta transport fluviu pod trezire munte sezlong traseu iarna cabana poze distractie umbra stuf relaxare lumina noapte semineu comert canale sport vis curaj marfa nuca dans faleza stanca amintiri plasa formatiuni prieteni aglomeratie zapada adrenalina inot gheata lup oras mister parcare lumini turist adancime ceata pescuit campie urs lanterna ancora brad ploaie pescarusi beton masina cald explorare aer emotie drum mal padure izvor liniste rucsac umbrela cort poiana mare pamant efort salcie natura muzica curent intuneric amurg stele palmieri tacere zgomot soare rasarit momeala pelican lemne sanie vin rece curat informatii pasari motor undita violet patine pestera insula echipa valuri dig ecou baterii sticla bani vasle cristal masini scoici aventura afaceri somn frica prapastie tehnologie vapor indigo foc bocanci marinari ceai busola viitor lume picaturi nisip orientare reflectie cabanier peste schi peisaj
+DELKW doc4 inot
+FIND aer
+ADDKW doc9 sare
+DELKW doc5 explorare
+PRINT
+FIND patine
+ADDKW doc3 lemne
+ADD doc10 26 131 vis informatii natura poza barcagiu barca nuca rasarit rucsac sare patura turist fluviu emotie orientare lup motor pescarusi plaja pescuit padure reflectie mal timp marfa bocanci adrenalina vant busola frig poze brad efort parcare semineu pestera pelican cort ancora lemne somn salcie masina muzica vin rece sanie oras explorare dig munte amintiri lumina vapor schi istorie tacere nor umbra patine delta foc pod formatiuni aventura curat pasari vasle undita otel traseu transport campie beton echipa dans cabana mister iarna nisip stanca prieteni violet trezire inot sezlong stele lanterna ceata urs harta intuneric ceai noapte lumini insula tehnologie curent umbrela comert baterii liniste momeala frica gheata marinari apa picaturi valuri peste sticla soare prapastie cald povesti port curaj aer masini poiana sport drum scoici palmieri canale dezvoltare stuf viitor ploaie peisaj bani
+DELKW doc5 padure
+FIND lume
+ADDKW doc9 lemne
+ADD doc11 30 106 timp floare padure curent cald bani nisip soare turist poze rece distractie valuri mister liniste stuf faleza adancime harta poiana otel natura lumini cabana sport pescuit peste apa aglomeratie patura ecou palmieri emotie sare pasari salcie sticla tehnologie umbrela picaturi busola efort pelican viitor cristal zgomot lume peisaj pamant aventura frica lumina patine povesti prieteni mal oras explorare pestera schi adrenalina undita port stele ancora inot formatiuni vasle foc sanie motor noapte delta curaj beton lemne nuca somn canale comert tacere nor transport indigo violet vis marinari cabanier urs gheata plasa relaxare barcagiu baterii informatii dans brad intuneric traseu rasarit ceata mare barca umbra poza scoici
+DELKW doc3 lumini
+FIND amurg
+ADDKW doc4 pamant
+FIND turist
+ADDKW doc7 pestera
+DELKW doc2 cabana
+PRINT
+FIND tacere
+ADDKW doc10 cald
+DEL doc6
+DELKW doc3 vin
+FIND viitor
+ADDKW doc11 padure
+DEL doc1
+DELKW doc4 marinari
+FIND explorare
+ADDKW doc8 lume
+FIND soare
+ADDKW doc5 cabanier
+DELKW doc8 tehnologie
+PRINT
+DELKW doc11 patine
+PRINT
+DELKW doc11 poze
+PRINT
+FIND poza
+ADDKW doc10 afaceri
+FIND traseu
+ADDKW doc11 valuri
+FIND frica
+ADDKW doc8 efort
+PRINT

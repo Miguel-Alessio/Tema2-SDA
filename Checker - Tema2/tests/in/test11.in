@@ -1,0 +1,10 @@
+9
+ADD WednesdayAddams 97 3 psychic nevermore outcast
+ADD EnidSinclair 85 2 werewolf nevermore
+ADD XavierThorpe 82 2 psychic nevermore
+ADD ThingAddams 80 1 outcast
+DEL ThingAddams
+ADDKW WednesdayAddams detective
+PRINT
+ADD BiancaBarclay 88 2 siren nevermore
+PRINT
