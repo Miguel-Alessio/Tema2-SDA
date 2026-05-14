@@ -4,7 +4,7 @@
 
 typedef struct FileNode{
     char id[50];
-    int scor;
+    int score;
     struct FileNode *next;
     struct FileNode *prev;
     int nr_cuvinte;
@@ -24,7 +24,8 @@ typedef struct TrieNode{
     FileRefNode *file_refs;
 }TrieNode;
 
-FileNode* create_file_node(const char* nume_id, int scor_initial){
+
+FileNode* create_file_node(const char* nume_id, int score_initial){
     FileNode* new_node=(FileNode*)malloc(sizeof(FileNode));
     if(new_node==NULL){
         printf("Error\n");
@@ -32,7 +33,7 @@ FileNode* create_file_node(const char* nume_id, int scor_initial){
     }
     strncpy(new_node->id,nume_id,49);
     new_node->id[49]='\0';
-    new_node->scor=scor_initial;
+    new_node->score=score_initial;
     new_node->prev=NULL;
     new_node->next=NULL;
     return new_node;
@@ -78,7 +79,7 @@ void insert_in_trie(TrieNode* root, const char* word, FileNode* file_ptr) {
     curr->file_refs = new_ref;
 }
 
-void ADD(FileNode **head,FileNode **tail,TrieNode* trie_root,const char* id,int scor_initial,char cuvinte_cheie[][50],int numar_cuvinte){
+void ADD(FileNode **head,FileNode **tail,TrieNode* trie_root,const char* id,int score_initial,char cuvinte_cheie[][50],int numar_cuvinte){
     FileNode *curr=*head;
     while(curr){
         if(strcmp(curr->id,id)==0){
@@ -87,7 +88,7 @@ void ADD(FileNode **head,FileNode **tail,TrieNode* trie_root,const char* id,int 
         }
         curr=curr->next;
     }
-    FileNode *new_file=create_file_node(id,scor_initial);
+    FileNode *new_file=create_file_node(id,score_initial);
 
     if(*head==NULL){
         *head=new_file;
@@ -243,27 +244,110 @@ void FIND(const char *word,FileNode *head,TrieNode *trie_root){
         curr=curr->children[index];
     }
     if (curr->end_of_word && curr->file_refs!=NULL) {
-    char nume_fisiere[100][50];
-    int count = 0;
-    FileRefNode *ref_curr = curr->file_refs;
-    while (ref_curr != NULL) {
-        strcpy(nume_fisiere[count], ref_curr->file->id);
+        char nume_files[100][50];
+        int count = 0;
+        FileRefNode *ref_curr = curr->file_refs;
+        while (ref_curr != NULL) {
+        strcpy(nume_files[count], ref_curr->file->id);
         count++;
         ref_curr = ref_curr->next;
-    }
-    for(int i=0;i<count-1;i++){
-        for(int j=i+1;j<count;j++){
-            if(strcmp(nume_fisiere[i],nume_fisiere[j])>0){
-                char tmp[50];
-                strcpy(tmp,nume_fisiere[j]);
-                strcpy(nume_fisiere[j],nume_fisiere[i]);
-                strcpy(nume_fisiere[i],tmp);
+        }
+        for(int i=0;i<count-1;i++){
+            for(int j=i+1;j<count;j++){
+                if(strcmp(nume_files[i],nume_files[j])>0){
+                    char tmp[50];
+                    strcpy(tmp,nume_files[j]);
+                    strcpy(nume_files[j],nume_files[i]);
+                    strcpy(nume_files[i],tmp);
+                }
             }
         }
-    }
 
-    for(int i=0;i<count;i++){
-        printf("%s ",nume_fisiere[i]);
+        for(int i=0;i<count;i++){
+            printf("%s ",nume_files[i]);
+        }
     }
+}
+
+typedef struct{
+    FileNode **files;
+    int size;
+}Heap;
+
+void insertHeap(Heap *heap, FileNode *new){
+    heap->files[heap->size]=new;
+    int i=heap->size;
+    (heap->size)++;
+    while(i>0){
+        int parent=(i-1)/2;
+        if(heap->files[i]->score > heap->files[parent]->score || (heap->files[i]->score == heap->files[parent]->score && strcmp(heap->files[i]->id, heap->files[parent]->id)<0)){
+            FileNode *temp=heap->files[parent];
+            heap->files[parent]=heap->files[i];
+            heap->files[i]=temp;
+            i=parent;
+        }
+        else{
+            break;
+        }
     }
+}
+
+void heapifyDown(Heap *heap, int i){
+    int max=i;
+    int left=(2*i)+1;
+    int right=(2*i)+2;
+    if (left<heap->size) {
+        if (heap->files[left]->scor > heap->files[max]->scor ||
+           (heap->files[left]->scor == heap->files[max]->scor && 
+            strcmp(heap->files[left]->id, heap->files[max]->id) < 0)) {
+            max = left;
+        }
+    }
+    if (right<heap->size) {
+        if (heap->files[right]->scor > heap->files[max]->scor ||
+           (heap->files[right]->scor == heap->files[max]->scor && 
+            strcmp(heap->files[right]->id, heap->files[max]->id) < 0)) {
+            max = right;
+        }
+    }
+    if(max!=i){
+        FileNode *temp=heap->files[i];
+        heap->files[i]=heap->files[max];
+        heap->files[max]=temp;
+
+        heapifyDown(heap,max);
+    }
+}
+
+
+void TOPK(const char *word,int k, TrieNode *trie_root){
+    TrieNode *curr=trie_root;
+    for(int i=0;i<strlen(word);i++){
+        int index=word[i]-'a';
+        if(curr->children[index]==NULL){
+            printf("No such keyword\n");
+            return;
+        }
+        curr=curr->children[index];
+    }
+    if(!curr->end_of_word || curr->file_refs==NULL)return;
+    Heap heap;
+    heap->size=0;
+    heap->files=(FileNode**)malloc(100 * sizeof(FileNode*));
+    FileRefNode *ref=curr->file_refs;
+    while(ref){
+        insertHeap(&heap,ref->file);
+        ref=ref->next;
+    }
+    int to_extract;
+    if(k<heap->size)to_extract=k;
+    else to_extract=heap->size;
+    for(int i=0;i<to_extract;i++){
+        printf("%s ",heap->files[0]->id);
+        heap->files[0]=heap->files[(heap->size)-1];
+        (heap->size)--;
+        heapifyDown(&heap,0);
+    }
+    printf("\n");
+    free(heap->files);
 }
