@@ -1,0 +1,13 @@
+--- temp.out.norm	2026-05-14 18:09:03.238092313 +0300
++++ tests/out/test71.out.norm	2026-05-14 18:09:03.238237453 +0300
+@@ -1,8 +1,8 @@
+ OK
+ OK
+ EMPTY
+-sculptura 1 brancusi
+-arta 2 brancusi braque
++1 brancusi
++2 brancusi braque
+ EMPTY
+ arta 2 brancusi braque
+ pictura 1 braque

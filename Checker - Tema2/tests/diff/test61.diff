@@ -1,0 +1,15 @@
+--- temp.out.norm	2026-05-14 17:34:34.159305736 +0300
++++ tests/out/test61.out.norm	2026-05-14 17:34:34.159943621 +0300
+@@ -2,10 +2,10 @@
+ OK
+ OK
+ 3 f1 f2 f3
+-NOT FOUND
++EMPTY
+ OK
+ 2 f1 f3
+ OK
+ 1 f3
+ OK
+-NOT FOUND
++EMPTY

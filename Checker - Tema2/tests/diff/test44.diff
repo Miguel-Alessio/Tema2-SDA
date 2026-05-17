@@ -1,0 +1,11 @@
+--- temp.out.norm	2026-05-14 17:34:34.020351098 +0300
++++ tests/out/test44.out.norm	2026-05-14 17:34:34.020815309 +0300
+@@ -23,7 +23,7 @@
+ astronaut 1 doc_10
+ aventura 2 doc_3 doc_8
+ bani 1 doc_7
+-barca 4 doc_3 doc_4 doc_4 doc_7
++barca 3 doc_3 doc_4 doc_7
+ barcagiu 1 doc_4
+ baterii 1 doc_8
+ belsug 1 doc_9

@@ -1,0 +1,14 @@
+--- temp.out.norm	2026-05-14 17:34:22.128739414 +0300
++++ tests/out/test51.out.norm	2026-05-14 17:34:22.129739420 +0300
+@@ -1,9 +1,11 @@
+ OK
+ NOT FOUND
+ OK
++OK
+ mere 1 f_test
+ pere 1 f_test
+ OK
++OK
+ NOT FOUND
+ OK
+ mere 2 f_altul f_test

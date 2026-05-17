@@ -1,0 +1,13 @@
+--- temp.out.norm	2026-05-14 18:20:13.450399668 +0300
++++ tests/out/test34.out.norm	2026-05-14 18:20:13.451079619 +0300
+@@ -18,3 +18,10 @@
+ pirate 1 EdwardKenway
+ renaissance 1 EzioAuditore
+ revolution 1 ConnorKenway
++assassin 4 AltairIbnLaAhad ConnorKenway EdwardKenway EzioAuditore
++brotherhood 3 AltairIbnLaAhad ConnorKenway EzioAuditore
++crusades 1 AltairIbnLaAhad
++mohawk 1 ConnorKenway
++pirate 1 EdwardKenway
++renaissance 1 EzioAuditore
++revolution 1 ConnorKenway

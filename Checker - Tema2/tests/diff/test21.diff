@@ -1,0 +1,11 @@
+--- temp.out.norm	2026-05-14 17:34:33.858413899 +0300
++++ tests/out/test21.out.norm	2026-05-14 17:34:33.859222724 +0300
+@@ -22,7 +22,7 @@
+ 2 Atreus Kratos
+ 2 Atreus Mimir
+ OK
+-NOT FOUND
++EMPTY
+ arrows 1 Atreus
+ blacksmith 1 Brok
+ dwarf 1 Brok

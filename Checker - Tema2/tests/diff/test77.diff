@@ -1,0 +1,36 @@
+--- temp.out.norm	2026-05-14 18:09:03.278237760 +0300
++++ tests/out/test77.out.norm	2026-05-14 18:09:03.279271017 +0300
+@@ -1,12 +1,12 @@
+ OK
+ OK
+-scanteie 2 b0 b1
++2 b0 b1
+ OK
+ OK
+ OK
+-smarald 2 b0 b1
++2 b0 b1
+ OK
+-smarald 1 b0
++1 b0
+ OK
+ 1 b1
+ OK
+@@ -15,13 +15,10 @@
+ 2 b2 b3
+ OK
+ OK
+-zbor 1 b3
+-coliba 2 b2 b4
+-cometa 1 b4
+-OK
+-penumbra 1 b2
+-pergament 2 b2 b4
+-praf 1 b4
++1 b3
++2 b2 b4
++OK
++2 b2 b4
+ ametist 2 b2 b4
+ amurg 2 b2 b4
+ busola 2 b2 b3

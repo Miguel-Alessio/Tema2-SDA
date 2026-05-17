@@ -1,0 +1,43 @@
+--- temp.out.norm	2026-05-14 18:09:03.285237814 +0300
++++ tests/out/test78.out.norm	2026-05-14 18:09:03.286237822 +0300
+@@ -4,23 +4,22 @@
+ OK
+ OK
+ OK
+-nisip 4 c0 c1 c2 c3
++4 c0 c1 c2 c3
+ 1 c0
+ OK
+ 4 c5 c3 c1 c0
+-randunica 3 c0 c1 c3
+-cuantic 4 c0 c1 c3 c5
++3 c0 c1 c3
++4 c0 c1 c3 c5
+ OK
+-cristal 3 c0 c1 c5
++3 c0 c1 c5
+ OK
+ OK
+-cristal 2 c0 c1
++2 c0 c1
+ OK
+ OK
+ OK
+ 2 c3 c1
+-spectru 2 c2 c3
+-spirala 3 c0 c2 c3
++3 c0 c2 c3
+ abis 2 c0 c3
+ algoritm 4 c1 c2 c3 c5
+ ametist 2 c0 c3
+@@ -103,9 +102,7 @@
+ 1 c1
+ 4 c0 c1 c4 c7
+ OK
+-coliba 2 c0 c7
+-cometa 4 c0 c1 c4 c7
+-coral 3 c0 c1 c7
++4 c0 c1 c4 c7
+ 2 c7 c1
+ abis 1 c0
+ algoritm 4 c1 c2 c5 c7

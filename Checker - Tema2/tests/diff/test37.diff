@@ -1,0 +1,14 @@
+--- temp.out.norm	2026-05-14 18:20:13.470287719 +0300
++++ tests/out/test37.out.norm	2026-05-14 18:20:13.471287725 +0300
+@@ -19,3 +19,11 @@
+ vengeance 1 Masako
+ warrior 1 Atsu
+ yotei 1 Atsu
++ghost 2 Atsu JinSakai
++legend 1 JinSakai
++mongol 1 Khotun
++samurai 2 JinSakai Masako
++tsushima 1 JinSakai
++vengeance 1 Masako
++warrior 1 Atsu
++yotei 1 Atsu

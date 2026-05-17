@@ -1,0 +1,15 @@
+--- temp.out.norm	2026-05-14 18:12:24.611871124 +0300
++++ tests/out/test52.out.norm	2026-05-14 18:12:24.612732670 +0300
+@@ -134,6 +134,7 @@
+ vultur 1 geografie
+ zapada 1 geografie
+ OK
++EMPTY
+ OK
+ adaptare 1 biologie
+ albina 1 biologie
+@@ -254,3 +255,4 @@
+ vertebrate 1 biologie
+ virus 1 biologie
+ OK
++EMPTY

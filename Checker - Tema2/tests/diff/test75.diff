@@ -1,0 +1,104 @@
+--- temp.out.norm	2026-05-14 18:09:03.265428102 +0300
++++ tests/out/test75.out.norm	2026-05-14 18:09:03.266292756 +0300
+@@ -2,29 +2,15 @@
+ OK
+ OK
+ 1 doc2
+-salcie 1 doc1
+-sanie 3 doc0 doc1 doc2
+-sare 1 doc0
+-schi 1 doc2
+-semineu 2 doc0 doc1
+-sezlong 1 doc0
+-soare 1 doc1
+-somn 1 doc0
+-sport 1 doc1
+-stanca 1 doc1
+-stele 1 doc1
++3 doc0 doc1 doc2
+ OK
+ OK
+ 2 doc0 doc1
+-lume 1 doc0
+-lumina 2 doc1 doc3
+-lumini 2 doc1 doc2
+-lup 3 doc0 doc1 doc3
++4 doc0 doc1 doc2 doc3
+ 2 doc3 doc1
+ OK
+ OK
+-poiana 1 doc0
+-poza 2 doc1 doc2
++3 doc0 doc1 doc2
+ 1 doc0
+ EMPTY
+ 1 doc3
+@@ -34,7 +20,7 @@
+ OK
+ EMPTY
+ EMPTY
+-undita 2 doc2 doc3
++2 doc2 doc3
+ 1 doc1
+ 1 doc3
+ OK
+@@ -49,7 +35,7 @@
+ OK
+ OK
+ OK
+-fluviu 1 doc4
++1 doc4
+ 1 doc3
+ OK
+ OK
+@@ -59,15 +45,14 @@
+ OK
+ 1 doc0
+ 1 doc0
+-comert 2 doc0 doc1
+-cort 2 doc3 doc7
++4 doc0 doc1 doc3 doc7
+ OK
+ OK
+ 2 doc8 doc7
+ OK
+ OK
+-ceai 1 doc1
+-reflectie 1 doc10
++1 doc1
++1 doc10
+ 1 doc1
+ OK
+ OK
+@@ -85,8 +70,7 @@
+ OK
+ OK
+ NOT FOUND
+-ceai 1 doc1
+-ceata 3 doc12 doc16 doc3
++4 doc1 doc12 doc16 doc3
+ EMPTY
+ NOT FOUND
+ NOT FOUND
+@@ -96,10 +80,8 @@
+ OK
+ NOT FOUND
+ EMPTY
+-valuri 1 doc13
+-vapor 2 doc12 doc3
+-vasle 1 doc16
+-vasle 1 doc16
++4 doc12 doc13 doc16 doc3
++1 doc16
+ OK
+ NOT FOUND
+ OK
+@@ -114,7 +96,7 @@
+ 2 doc3 doc16
+ OK
+ OK
+-ceata 4 doc12 doc16 doc17 doc3
++4 doc12 doc16 doc17 doc3
+ OK
+ 1 doc3
+ OK

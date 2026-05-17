@@ -1,0 +1,27 @@
+--- temp.out.norm	2026-05-14 18:20:13.739289300 +0300
++++ tests/out/test73.out.norm	2026-05-14 18:20:13.740289306 +0300
+@@ -21,3 +21,24 @@
+ film 3 gladiatorul godfather greu_de_ucis
+ premiu 3 gladiatorul godfather gopo
+ regizor 1 gopo
++actiune 1 greu_de_ucis
++crime 1 godfather
++desen 1 gopo
++drama 1 gladiatorul
++film 3 gladiatorul godfather greu_de_ucis
++premiu 3 gladiatorul godfather gopo
++regizor 1 gopo
++actiune 1 greu_de_ucis
++crime 1 godfather
++desen 1 gopo
++drama 1 gladiatorul
++film 3 gladiatorul godfather greu_de_ucis
++premiu 3 gladiatorul godfather gopo
++regizor 1 gopo
++actiune 1 greu_de_ucis
++crime 1 godfather
++desen 1 gopo
++drama 1 gladiatorul
++film 3 gladiatorul godfather greu_de_ucis
++premiu 3 gladiatorul godfather gopo
++regizor 1 gopo

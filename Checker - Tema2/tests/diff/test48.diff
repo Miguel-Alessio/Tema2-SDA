@@ -1,0 +1,10 @@
+--- temp.out.norm	2026-05-14 18:12:24.578601589 +0300
++++ tests/out/test48.out.norm	2026-05-14 18:12:24.579301687 +0300
+@@ -3,6 +3,7 @@
+ mure 1 test
+ pere 1 test
+ OK
++EMPTY
+ OK
+ EXISTS
+ banane 1 test

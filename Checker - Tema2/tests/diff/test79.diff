@@ -1,0 +1,62 @@
+--- temp.out.norm	2026-05-14 18:09:03.293260399 +0300
++++ tests/out/test79.out.norm	2026-05-14 18:09:03.294202282 +0300
+@@ -2,20 +2,20 @@
+ OK
+ OK
+ OK
+-ceara 1 c2
++1 c2
+ 2 c1 c2
+ OK
+ OK
+-fluture 3 c0 c2 c4
++3 c0 c2 c4
+ 2 c2 c0
+ OK
+ OK
+ OK
+ OK
+-pasare 2 c2 c5
++2 c2 c5
+ 2 c2 c5
+ 2 c0 c3
+-brad 4 c0 c1 c2 c5
++4 c0 c1 c2 c5
+ 2 c1 c2
+ OK
+ OK
+@@ -90,12 +90,10 @@
+ OK
+ OK
+ 1 c3
+-ecou 1 c3
++1 c3
+ OK
+ OK
+-scanteie 5 c0 c1 c5 c6 c7
+-sclipici 4 c2 c3 c5 c7
+-scoica 5 c2 c3 c5 c6 c7
++7 c0 c1 c2 c3 c5 c6 c7
+ 3 c2 c6 c3
+ 2 c5 c7
+ 2 c6 c7
+@@ -182,7 +180,7 @@
+ zbor 2 c2 c5
+ NOT FOUND
+ 1 c7
+-vant 1 c7
++1 c7
+ OK
+ NOT FOUND
+ OK
+@@ -194,9 +192,7 @@
+ 4 c1 c2 c5 c7
+ OK
+ NOT FOUND
+-mar 4 c10 c2 c5 c9
+-margean 1 c7
+-matase 5 c1 c10 c2 c3 c7
++7 c1 c10 c2 c3 c5 c7 c9
+ 1 c3
+ abis 1 c1
+ algoritm 2 c1 c10

@@ -1,0 +1,35 @@
+--- temp.out.norm	2026-05-14 17:54:37.604320897 +0300
++++ tests/out/test58.out.norm	2026-05-14 17:54:37.605087817 +0300
+@@ -161,32 +161,3 @@
+ ulei 1 r2
+ usturoi 1 r2
+ zahar 1 r2
+-NOT FOUND
+-OK
+-apa 1 r2
+-ardei 1 r2
+-busuioc 1 r2
+-cartof 1 r2
+-ceapa 1 r2
+-cimbru 1 r2
+-ciuperci 1 r2
+-drojdie 1 r2
+-faina 1 r2
+-fasole 1 r2
+-lapte 1 r2
+-leustean 1 r2
+-linte 1 r2
+-marar 1 r2
+-mazare 1 r2
+-morcov 1 r2
+-naut 1 r2
+-orez 1 r2
+-ou 1 r2
+-patrunjel 1 r2
+-piper 1 r2
+-rosii 1 r2
+-sare 1 r2
+-telina 1 r2
+-ulei 1 r2
+-usturoi 1 r2
+-zahar 1 r2

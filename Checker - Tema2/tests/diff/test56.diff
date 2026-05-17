@@ -1,0 +1,7 @@
+--- temp.out.norm	2026-05-14 18:12:24.643394071 +0300
++++ tests/out/test56.out.norm	2026-05-14 18:12:24.644268363 +0300
+@@ -18,3 +18,4 @@
+ scoala 1 f2
+ OK
+ NOT FOUND
++EMPTY

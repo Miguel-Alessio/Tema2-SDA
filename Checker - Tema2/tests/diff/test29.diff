@@ -1,0 +1,18 @@
+--- temp.out.norm	2026-05-14 17:34:10.655225824 +0300
++++ tests/out/test29.out.norm	2026-05-14 17:34:10.655988915 +0300
+@@ -6,11 +6,11 @@
+ OK
+ OK
+ OK
+-MegumiFushiguro NoboraKugisaki SatoruGojo YujiItadori
+-SatoruGojo YujiItadori MegumiFushiguro
+-YujiItadori MegumiFushiguro
++4 MegumiFushiguro NoboraKugisaki SatoruGojo YujiItadori
++3 SatoruGojo YujiItadori MegumiFushiguro
++2 YujiItadori MegumiFushiguro
+ OK
+-MegumiFushiguro NoboraKugisaki RyomenSukuna YujiItadori
++4 MegumiFushiguro NoboraKugisaki RyomenSukuna YujiItadori
+ cursed 4 MegumiFushiguro NoboraKugisaki RyomenSukuna YujiItadori
+ divergent 1 YujiItadori
+ infinity 1 SatoruGojo

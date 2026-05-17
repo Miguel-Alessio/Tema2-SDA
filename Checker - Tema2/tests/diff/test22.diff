@@ -1,0 +1,13 @@
+--- temp.out.norm	2026-05-14 17:34:10.608282275 +0300
++++ tests/out/test22.out.norm	2026-05-14 17:34:10.608961452 +0300
+@@ -19,8 +19,8 @@
+ warlord 1 Khotun
+ warrior 1 Atsu
+ yotei 1 Atsu
+-JinSakai Masako
+-Atsu JinSakai
++2 JinSakai Masako
++2 Atsu JinSakai
+ OK
+ ghost 2 Atsu JinSakai
+ legend 1 JinSakai

@@ -1,0 +1,295 @@
+--- temp.out.norm	2026-05-14 17:54:37.650133606 +0300
++++ tests/out/test64.out.norm	2026-05-14 17:54:37.650830858 +0300
+@@ -9,292 +9,3 @@
+ 1 doc_1
+ 1 doc_1
+ 1 doc_1
+-2 doc_1 doc_8
+-1 doc_1
+-1 doc_1
+-1 doc_1
+-1 doc_1
+-1 doc_1
+-2 doc_1 doc_8
+-1 doc_1
+-1 doc_1
+-2 doc_1 doc_4
+-2 doc_1 doc_4
+-1 doc_1
+-1 doc_1
+-1 doc_1
+-2 doc_1 doc_8
+-1 doc_1
+-1 doc_1
+-3 doc_1 doc_3 doc_4
+-2 doc_1 doc_7
+-1 doc_1
+-1 doc_1
+-1 doc_1
+-1 doc_1
+-1 doc_1
+-2 doc_1 doc_8
+-1 doc_2
+-1 doc_2
+-1 doc_2
+-1 doc_2
+-1 doc_2
+-1 doc_2
+-1 doc_2
+-1 doc_2
+-2 doc_2 doc_8
+-1 doc_2
+-1 doc_2
+-1 doc_2
+-1 doc_2
+-1 doc_2
+-1 doc_2
+-1 doc_2
+-1 doc_2
+-1 doc_2
+-1 doc_2
+-2 doc_2 doc_4
+-1 doc_2
+-1 doc_2
+-1 doc_2
+-1 doc_2
+-1 doc_2
+-2 doc_2 doc_3
+-3 doc_2 doc_3 doc_8
+-1 doc_2
+-2 doc_3 doc_4
+-2 doc_3 doc_4
+-1 doc_3
+-2 doc_3 doc_7
+-1 doc_3
+-1 doc_3
+-1 doc_3
+-1 doc_3
+-4 doc_3 doc_4 doc_7 doc_8
+-1 doc_3
+-1 doc_3
+-3 doc_3 doc_4 doc_7
+-2 doc_3 doc_7
+-2 doc_3 doc_7
+-1 doc_3
+-1 doc_3
+-1 doc_3
+-2 doc_3 doc_8
+-1 doc_3
+-1 doc_3
+-1 doc_3
+-2 doc_3 doc_4
+-2 doc_3 doc_4
+-1 doc_3
+-2 doc_3 doc_7
+-1 doc_3
+-1 doc_3
+-1 doc_4
+-1 doc_4
+-1 doc_4
+-1 doc_4
+-1 doc_4
+-1 doc_4
+-1 doc_4
+-2 doc_4 doc_7
+-1 doc_4
+-1 doc_4
+-1 doc_4
+-1 doc_4
+-1 doc_4
+-1 doc_4
+-1 doc_4
+-1 doc_4
+-1 doc_4
+-1 doc_4
+-1 doc_4
+-1 doc_7
+-1 doc_7
+-1 doc_7
+-1 doc_7
+-1 doc_7
+-1 doc_7
+-1 doc_7
+-1 doc_7
+-1 doc_7
+-1 doc_7
+-1 doc_7
+-1 doc_7
+-1 doc_7
+-1 doc_7
+-1 doc_7
+-1 doc_7
+-1 doc_7
+-1 doc_7
+-1 doc_7
+-1 doc_7
+-1 doc_7
+-1 doc_7
+-1 doc_8
+-1 doc_8
+-1 doc_8
+-1 doc_8
+-1 doc_8
+-1 doc_8
+-1 doc_8
+-1 doc_8
+-1 doc_8
+-1 doc_8
+-1 doc_8
+-1 doc_8
+-1 doc_8
+-1 doc_8
+-1 doc_8
+-1 doc_8
+-1 doc_8
+-1 doc_8
+-1 doc_8
+-1 doc_8
+-1 doc_8
+-adancime 1 doc_8
+-adrenalina 1 doc_2
+-aer 1 doc_1
+-afaceri 1 doc_7
+-aglomeratie 1 doc_7
+-amintiri 1 doc_4
+-amurg 1 doc_4
+-ancora 1 doc_3
+-apa 4 doc_3 doc_4 doc_7 doc_8
+-aventura 2 doc_3 doc_8
+-bani 1 doc_7
+-barca 3 doc_3 doc_4 doc_7
+-barcagiu 1 doc_4
+-baterii 1 doc_8
+-beton 1 doc_7
+-bocanci 1 doc_1
+-brad 1 doc_1
+-busola 3 doc_2 doc_3 doc_8
+-cabana 1 doc_1
+-cabanier 1 doc_2
+-cald 1 doc_2
+-campie 1 doc_2
+-canale 1 doc_4
+-ceai 1 doc_2
+-ceata 1 doc_1
+-comert 1 doc_7
+-cort 1 doc_1
+-cristal 1 doc_8
+-curaj 1 doc_8
+-curat 1 doc_1
+-curent 1 doc_4
+-dans 1 doc_3
+-delta 1 doc_4
+-dezvoltare 1 doc_7
+-dig 1 doc_7
+-distractie 1 doc_3
+-drum 1 doc_2
+-echipa 2 doc_2 doc_8
+-ecou 1 doc_8
+-efort 1 doc_2
+-emotie 1 doc_8
+-explorare 1 doc_8
+-faleza 1 doc_7
+-floare 1 doc_1
+-fluviu 1 doc_7
+-foc 1 doc_1
+-formatiuni 1 doc_8
+-frica 1 doc_8
+-frig 1 doc_2
+-gheata 1 doc_2
+-harta 2 doc_2 doc_3
+-iarna 1 doc_2
+-informatii 1 doc_2
+-inot 1 doc_3
+-insula 1 doc_3
+-intuneric 1 doc_8
+-istorie 1 doc_8
+-izvor 2 doc_1 doc_8
+-lanterna 1 doc_8
+-lemne 1 doc_1
+-liniste 2 doc_1 doc_4
+-lume 1 doc_7
+-lumina 1 doc_8
+-lumini 1 doc_7
+-lup 1 doc_1
+-mal 2 doc_4 doc_7
+-mare 2 doc_3 doc_4
+-marfa 1 doc_7
+-marinari 1 doc_3
+-masina 1 doc_2
+-masini 1 doc_7
+-mister 1 doc_8
+-momeala 1 doc_4
+-motor 1 doc_4
+-munte 3 doc_1 doc_2 doc_8
+-muzica 1 doc_3
+-natura 1 doc_4
+-nisip 2 doc_3 doc_4
+-noapte 2 doc_3 doc_7
+-nor 1 doc_1
+-nuca 1 doc_3
+-oras 1 doc_7
+-orientare 1 doc_3
+-otel 1 doc_7
+-padure 1 doc_1
+-palmieri 1 doc_3
+-pamant 1 doc_8
+-parcare 1 doc_2
+-pasari 1 doc_4
+-patine 1 doc_2
+-patura 1 doc_2
+-peisaj 1 doc_1
+-pelican 1 doc_4
+-pescarusi 1 doc_3
+-pescuit 2 doc_3 doc_4
+-peste 2 doc_3 doc_4
+-pestera 1 doc_8
+-picaturi 1 doc_8
+-plaja 1 doc_3
+-plasa 1 doc_4
+-ploaie 1 doc_1
+-pod 1 doc_7
+-poiana 1 doc_1
+-port 2 doc_3 doc_7
+-povesti 1 doc_2
+-poze 1 doc_4
+-prapastie 1 doc_1
+-prieteni 1 doc_2
+-rasarit 2 doc_2 doc_4
+-rece 1 doc_8
+-reflectie 1 doc_7
+-relaxare 2 doc_1 doc_4
+-rucsac 2 doc_1 doc_8
+-salcie 1 doc_4
+-sanie 1 doc_2
+-sare 1 doc_3
+-schi 1 doc_1
+-scoici 1 doc_3
+-semineu 1 doc_2
+-sezlong 1 doc_3
+-soare 3 doc_1 doc_3 doc_4
+-somn 1 doc_2
+-sport 1 doc_2
+-stanca 2 doc_1 doc_8
+-stele 2 doc_1 doc_8
+-sticla 1 doc_7
+-stuf 1 doc_4
+-tacere 1 doc_8
+-tehnologie 1 doc_7
+-timp 1 doc_8
+-transport 1 doc_7
+-traseu 1 doc_1
+-trezire 1 doc_2
+-turist 1 doc_4
+-umbra 1 doc_8
+-umbrela 1 doc_3
+-undita 1 doc_4
+-urs 1 doc_1
+-valuri 2 doc_3 doc_7
+-vant 2 doc_1 doc_7
+-vapor 2 doc_3 doc_7
+-vasle 1 doc_4
+-viitor 1 doc_7
+-vin 1 doc_2
+-vis 1 doc_2
+-zapada 2 doc_1 doc_2
+-zgomot 1 doc_7
