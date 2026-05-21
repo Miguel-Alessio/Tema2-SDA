@@ -1,7 +1,0 @@
---- temp.out.norm	2026-05-14 18:12:24.627481338 +0300
-+++ tests/out/test54.out.norm	2026-05-14 18:12:24.629233055 +0300
-@@ -1673,3 +1673,4 @@
- zgomot 1 rand
- OK
- NOT FOUND
-+EMPTY

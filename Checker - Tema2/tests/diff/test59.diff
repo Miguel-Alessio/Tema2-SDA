@@ -1,7 +1,0 @@
---- temp.out.norm	2026-05-14 18:12:24.665101766 +0300
-+++ tests/out/test59.out.norm	2026-05-14 18:12:24.666389196 +0300
-@@ -19,3 +19,4 @@
- OK
- marinar 1 f_altul
- OK
-+EMPTY
