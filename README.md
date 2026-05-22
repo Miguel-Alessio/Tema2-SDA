@@ -1,37 +1,45 @@
-# Tema 2 SDA
+# In-Memory Search Engine 🔍⚡
 
-**Nume:** Pasagali Popa Miguel Alessio
-**Grupă:** 315CC
-**Materie:** Structuri de Date și Algoritmi  
+A fast, lightweight, and efficient text-indexing system built entirely in C. This project simulates the core mechanics of a search engine, supporting operations like dynamic document indexing, fast keyword lookups, prefix-based autocomplete, and TOP-K relevance retrieval.
 
-## Descriere Generală
-Această temă implementează un sistem eficient de indexare și căutare a fișierelor text pe baza unor cuvinte cheie. Proiectul simulează comportamentul unui motor de căutare de bază, capabil să adauge, șteargă și să găsească documente rapid, inclusiv să sugereze cele mai relevante `k` rezultate (TOPK) sau să facă autocomplete (PREFIX). 
+## 🧠 Data Structures & Architecture
 
-Toată logica se bazează pe trei structuri de date fundamentale: **Lista Dublu Înlănțuită**, **Trie (Arbore Multicăi)** și **Max/Min-Heap**.
+To achieve optimal performance across all operations, the engine relies on a synergy of three fundamental data structures:
 
-## Structuri de Date Folosite
+### 1. Radix Tree / Trie (The Core Engine)
+* **Purpose:** Handles all string-matching operations with $O(w)$ time complexity (where $w$ is the word length), making search speed entirely independent of the total number of documents in the database.
+* **Mechanism:** Each Trie node that marks the end of a word holds a Linked List of references pointing back to the specific files containing that keyword. When keywords are removed (`DELKW`), the Trie dynamically prunes dead branches to prevent memory leaks.
 
-1. **Lista Dublu Înlănțuită (FileNode)**
-   * Păstrează baza de date a fișierelor într-un mod simplu de iterat și șters.
-   * Fiecare nod reține ID-ul fișierului, scorul de relevanță, numărul de cuvinte și un array bidimensional (alocat dinamic) de cuvinte cheie.
+### 2. Max/Min-Heap (For TOP-K Retrieval)
+* **Purpose:** Efficiently fetching the most relevant search results.
+* **Mechanism:** Instead of sorting the entire database (which would be computationally expensive), matched documents are pushed into a Heap prioritized by their relevance score (and lexicographically in case of ties). The system then extracts only the requested top $K$ results using `heapifyDown` operations.
 
-2. **Arborele Trie (TrieNode)**
-   * Este baza sistemului de căutare. Permite găsirea unui cuvânt în timp O(n), unde n este lungimea cuvântului, complet independent de numărul total de cuvinte din sistem.
-   * Fiecare nod din Trie care marchează finalul unui cuvânt (end_of_word = true) deține și o listă simplu înlănțuită (FileRefNode) cu referințe către fișierele din Lista Dublă care conțin acel cuvânt.
+### 3. Doubly Linked List (Document Database)
+* **Purpose:** Acts as the primary database holding document metadata.
+* **Mechanism:** Stores file IDs, relevance scores, and dynamically allocated arrays of keywords. It allows for fast document insertion (`ADD`) and $O(1)$ pointer-based deletion (`DEL`).
 
-3. **Heap (Heap)**
-   * Folosit exclusiv pentru comanda TOPK.
-   * În loc să sortez toate fișierele returnate de o căutare (ceea ce ar fi costisitor), inserez elementele într-un Heap, prioritatea fiind dată de scorul fișierului (și lexicografic în caz de egalitate). Apoi extrag doar primele k elemente prin operatii de heapifyDown.
+---
 
-## Detalii de Implementare & Funcționalități
+## ⚙️ Features & Operations
 
-* **ADD / DEL:** Adăugarea creează un fișier nou și populează Trie-ul. La ștergere, pe lângă eliminarea fișierului din listă, se parcurge Trie-ul și se elimină doar referința către fișierul curent. Nodurile din Trie sunt șterse complet doar dacă nu mai au copii și nu mai sunt capăt de cuvânt.
-* **ADDKW / DELKW:** Modifică local cuvintele cheie din structura FileNode a fișierului țintă și actualizează legăturile din Trie.
-* **FIND:** Caută un cuvânt în Trie. Dacă ajunge la finalul cuvântului, preia toate fișierele asociate, le pune într-un array de pointeri și le sortează lexicografic eficient folosind qsort.
-* **PREFIX:** Parcurge Trie-ul până termină prefixul dat, apoi realizează o parcurgere recursivă (DFS) în subarborele respectiv pentru a aduna și a sorta toate fișierele unice care conțin cuvinte ce încep cu acel prefix.
+* **`ADD` / `DEL`:** Dynamically inserts or removes documents from the database while synchronizing the Trie index. 
+* **`ADDKW` / `DELKW`:** Mutates the keywords of an existing document and updates the localized Trie branches without rebuilding the index.
+* **`FIND`:** Executes a direct $O(w)$ traversal on the Trie. If a match is found, it collects all referenced files, stores their pointers in a dynamically sized array, and sorts them using `qsort` for immediate display.
+* **`PREFIX` (Autocomplete):** Traverses the Trie to the end of the given prefix, then launches a recursive Depth-First Search (DFS) across the subtree to aggregate all unique files containing any word starting with that prefix.
 
-## Dificultăți Întâmpinate și Soluții
+---
 
-1.  **Memory Limit / Segmentation Fault pe testele mari:** Inițial am încercat să aloc static pe stivă vectori uriași pentru sortarea rezultatelor (ex. char nume_files[25000][50]). Această abordare crăpa pe unele teste. Soluția a fost să salvez doar *pointeri* către ID-urile fișierelor (`const char**`) și să număr elementele înainte de a face un malloc curat pe heap. Astfel, consumul a scăzut drastic.
-2.  **Mesajele de eroare (EMPTY vs NOT FOUND):** A fost nevoie de mare atenție la enunț: NOT FOUND este pentru obiecte care lipsesc când încercăm să modificăm structura (la DEL, ADDKW), iar EMPTY este exclusiv un răspuns pentru o căutare fără rezultat (FIND, TOPK, PREFIX).
-3.  **Parsarea Input-ului:** Unele fișiere de test .in aveau un număr de comenzi (n_ops) declarat pe prima linie care nu se pupa mereu cu numărul real de comenzi din interior. Am rezolvat problema adăugând un mecanism de fallback pe verificarea valorii returnate de scanf, combinat cu execuția forțată a ultimei operații, pentru a garanta sincronizarea cu checker-ul.
+## 🛠️ Engineering Challenges & Optimizations
+
+* **Memory Limits & Segmentation Faults:** During extreme stress testing, allocating massive 2D arrays on the stack for sorting (e.g., `char file_names[25000][50]`) caused stack overflows. 
+  **Solution:** Refactored the collection logic to store only pointers to the original File IDs (`const char**`). I added a pre-counting loop to allocate exact memory on the heap via `malloc`, drastically reducing the memory footprint and preventing crashes.
+* **Robust Input Parsing:** Some malformed test cases had metadata headers (e.g., number of operations) that didn't match the actual file contents. 
+  **Solution:** Implemented a resilient I/O fallback mechanism relying on `scanf` return values rather than hardcoded operation counts, ensuring perfect synchronization with the testing checker.
+* **Granular Error Handling:**
+  Implemented strict error separation to distinguish between structural failures (`NOT FOUND` when trying to delete non-existent data) and empty search results (`EMPTY` for valid queries with zero hits).
+
+---
+
+## 💻 Tech Stack
+* **Language:** C
+* **Concepts:** Advanced Memory Management, Tree Traversals (DFS), Heapify Algorithms, Pointer Arithmetic.
